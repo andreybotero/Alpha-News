@@ -1,7 +1,11 @@
 body{}
 
-.articles{ }
+.articles{ margin-left: 20%;
+margin-top: 10%;}
 
-.sections{ }
+.sections{ display: flex;}
 
-#imgs{ }
+#imgs{ 
+    height: 64px;
+    width: 64px;
+}
