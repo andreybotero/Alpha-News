@@ -1,11 +1,14 @@
-body{}
+body { background-image:linear-gradient(#e3e8ec, #34576b )}
 
 .articles{ margin-left: 20%;
     margin-right: 20%;
-margin-top: 10%;
-background-color: aqua;
+margin-top: 1%;
+background-color: white ;
+padding: 8%;
 }
 
+div { background: #e3e8ec; padding-top: 5%;
+padding-bottom: 5%;}
 .sections{ display: flex;}
 
 #imgs{ 
@@ -24,6 +27,8 @@ iframe{ width: 100%;}
 #titulo{font-size: xx-large;
 text-align: center;
 font-style: italic;}
+
+
 
 #vejatambem{ display: flex;
 flex-direction: column;
@@ -53,3 +58,8 @@ flex-direction: column;
         transform: rotate(359deg);
     }
 }
+
+#p1:hover {font-size: larger; color: grey;}
+
+a { text-decoration: none;
+color: black;}
