@@ -24,3 +24,7 @@ iframe{ width: 100%;}
 #titulo{font-size: xx-large;
 text-align: center;
 font-style: italic;}
+
+#vejatambem{ display: flex;
+flex-direction: column;
+}
