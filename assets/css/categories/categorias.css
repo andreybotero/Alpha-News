@@ -1,9 +1,10 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: linear-gradiente: #34576b #e3e8ec;
-
+   background-image: linear-gradient(#e3e8ec ,#34576b);
 }
+    
+   
 h1{
     text-align: center;
     color: #3f5562;
@@ -16,9 +17,11 @@ img{
     display: block;
     border-radius: 50%;
     margin-left: 15%;
+    box-shadow: 5px 5px 15px gray;
 }
 .container{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 5%;
+    
 }
