@@ -1,13 +1,16 @@
+/* estilização do corpo do projeto*/ 
 body {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(#e3e8ec,#34576b );
+    background-image: linear-gradient(#e3e8ec, #34576b);
     height: 100vh;
 }
+/* alinhamento e tamanho da fonte do h1*/ 
 h1 {
     text-align: center;
     font-size: 40px;
 }
+/*  parte de uma estilização do article*/
 #pa6 {
     display: flex;
     flex-direction: column;
@@ -17,18 +20,21 @@ h1 {
     transform: translateY(-50%);
 
 }
+/* estilização do botão */
 #pa4 {
     border: blanchedalmond;
     height: 50px;
-    background-color:#69717c ;
+    background-color: #69717c;
     border-radius: 10px;
     margin-bottom: 10px;
     padding: 20px;
 }
+/* alinhamento do formulario */
 .form {
     display: flex;
     flex-direction: column;
 }
+/* estilização do campo de email*/
 #pa2 {
     border-color: black;
     margin-bottom: 20px;
@@ -36,6 +42,7 @@ h1 {
     padding-bottom: 5px;
     border-radius: 10px;
 }
+/* estilização do campo para digitar o nome */
 #pa1 {
     border-color: black;
     outline: 0;
@@ -44,6 +51,7 @@ h1 {
     padding-bottom: 5px;
     border-radius: 10px;
 }
+/*campo para digitar a mensagem*/
 #pa3 {
     border-radius: 10px;
     margin-bottom: 20px;
@@ -51,11 +59,13 @@ h1 {
     padding-bottom: 15px;
 
 }
+/* estilização final do corpo do projeto*/ 
 body {
     margin: 0;
     padding: 0;
-   
+
 }
+/*  estilização final do article*/
 #pa6 {
     display: flex;
     flex-direction: column;
@@ -63,18 +73,22 @@ body {
     width: 50%;
     margin-bottom: 10px;
 }
+/* estilização do botão com as cores do houver */
 #pa4:hover {
-    background-color:white ;
+    background-color: white;
     box-shadow: 0 0 50px black;
 }
+/* estilização do botão com houver */
 input:hover {
     box-shadow: 0 0 50px black;
 }
-p{
+/* estilização do botão para centralizar */
+p {
     text-align: center;
-    
+
 }
-article{
+/* para deixar tudo no centro*/
+article {
     justify-content: center;
 }
 
