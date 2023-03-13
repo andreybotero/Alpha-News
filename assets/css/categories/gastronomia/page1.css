@@ -1,0 +1,14 @@
+ body{
+    background-color: hsl(85, 47%, 84%);
+ }
+
+.section_1{
+    height: auto;
+    max-width: 100%;
+}
+
+.h1{
+     color: black;
+     font-family: 'Courier New', Courier, monospace;
+     text-align: center;
+}
