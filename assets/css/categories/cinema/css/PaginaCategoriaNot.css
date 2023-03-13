@@ -1,7 +1,10 @@
 body{}
 
 .articles{ margin-left: 20%;
-margin-top: 10%;}
+    margin-right: 20%;
+margin-top: 10%;
+background-color: aqua;
+}
 
 .sections{ display: flex;}
 
@@ -13,3 +16,5 @@ margin-top: 10%;}
 #titulonoticia{ font-size: larger;
 font-style: oblique ;
 }
+
+.articles:hover{ background-color: aquamarine;}
