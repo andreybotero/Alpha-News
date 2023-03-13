@@ -64,4 +64,7 @@ body {
 input:hover {
     box-shadow: 0 0 50px black;
 }
+p{
+    text-align: center;
+}
 
