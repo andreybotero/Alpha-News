@@ -1,0 +1,26 @@
+body{}
+
+.articles{ margin-left: 20%;
+    margin-right: 20%;
+margin-top: 10%;
+background-color: aqua;
+}
+
+.sections{ display: flex;}
+
+#imgs{ 
+    height: 64px;
+    width: 64px;
+}
+
+#titulonoticia{ font-size: larger;
+font-style: oblique ;
+}
+
+.articles:hover{ background-color: aquamarine;}
+
+iframe{ width: 100%;}
+
+#titulo{font-size: xx-large;
+text-align: center;
+font-style: italic;}
