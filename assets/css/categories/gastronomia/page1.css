@@ -1,14 +1,16 @@
  body{
-    background-color: hsl(85, 47%, 84%);
+    background-color: rgb(219,223,228);
  }
 
-.section_1{
-    height: auto;
-    max-width: 100%;
-}
+.div_1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(67,103,123);
+ }
 
-.h1{
-     color: black;
-     font-family: 'Courier New', Courier, monospace;
-     text-align: center;
-}
+ #section{
+    
+ }
+
+
+
