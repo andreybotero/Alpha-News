@@ -1,30 +1,41 @@
+
+/*edições gerais da página*/
 body{
     margin: 0;
     padding: 0;
-   background-image: linear-gradient(#e3e8ec ,#34576b);
+    background-image: linear-gradient(#e3e8ec ,#34576b);
 }
     
-   
+  /*edições no título "categorias"*/ 
 h1{
     text-align: center;
     color: #3f5562;
 }
+/*edições nos títulos de cada tema das notícias*/
 h2{
     color: #3f5562;
     text-align: left;
 }
+/*edições nas imagens inseridas*/
 img{
     display: block;
     border-radius: 50%;
     margin-left: 15%;
     box-shadow: 5px 5px 15px gray;
 }
+/*edições na disposição dos temas no layout da página*/
 .container{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 5%;
     
 }
+/*edições nos links dos temas*/
 a{
     text-decoration: none;
+}
+/*edições nos links dos temas*/
+a:hover h2 {
+    color:#c6c1bbce;
+    font-size: 25px;
 }
