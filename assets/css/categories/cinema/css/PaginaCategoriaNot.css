@@ -28,3 +28,28 @@ font-style: italic;}
 #vejatambem{ display: flex;
 flex-direction: column;
 }
+
+/*Edição geral da Camerasinha*/
+#img1 {
+    height: 64px;
+    width: 64px;
+    padding: 10px;
+    margin-left: 47%;
+}
+
+/*Animação da logo*/
+#img1:hover {
+    width: 64px;
+    animation: rotation 2s infinite linear;
+}
+
+/*Animação da Camerasinha*/
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
