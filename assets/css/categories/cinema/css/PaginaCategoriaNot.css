@@ -10,4 +10,6 @@ margin-top: 10%;}
     width: 64px;
 }
 
-#titulonoticia{}
+#titulonoticia{ font-size: larger;
+font-style: oblique ;
+}
