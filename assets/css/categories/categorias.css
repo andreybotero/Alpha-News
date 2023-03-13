@@ -1,13 +1,14 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: linear-gradiente: #34576b #e3e8ec;
+
 }
 h1{
     text-align: center;
     color: #3f5562;
 }
 h2{
-    margin-left: 10%;
     color: #3f5562;
     text-align: left;
 }
@@ -15,4 +16,9 @@ img{
     display: block;
     border-radius: 50%;
     margin-left: 15%;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
 }
