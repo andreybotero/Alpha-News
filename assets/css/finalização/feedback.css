@@ -114,4 +114,8 @@ main {
     height: 80%;
     margin: auto;
     border-radius: 20px;
+    box-shadow: -webkit-box-shadow: 23px 23px 28px 15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 23px 23px 28px 15px rgba(0,0,0,0.75);
+    box-shadow: 23px 23px 28px 15px rgba(0,0,0,0.75);
+        
 }
