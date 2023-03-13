@@ -7,7 +7,9 @@ h1{
     color: #3f5562;
 }
 h2{
-    margin-left: 15%;
+    margin-left: 15px;
     color: #3f5562;
 }
-img{}
+img{
+    margin: 10%;
+}
