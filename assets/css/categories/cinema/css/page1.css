@@ -37,3 +37,12 @@ pa1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 10px;
 }
+
+.sections {
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+}
