@@ -65,3 +65,19 @@ a {
     transition: 1s;
 
 }
+a:hover {
+    color: #e3e8ec;
+}
+
+a::before,
+a::after {
+
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #e3e8ec;
+    top: 100%;
+    left: 0;
+    pointer-events: none;
+
+}
