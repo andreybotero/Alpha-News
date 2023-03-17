@@ -26,3 +26,11 @@ li {
     display: inline-flex;
     margin-top: 20px;
 }
+
+.conteiner {
+    gap: 50px;
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-top: 10px;
+}
