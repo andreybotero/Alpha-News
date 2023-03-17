@@ -132,3 +132,8 @@ a:after {
     opacity: 0;
     transition-delay: 0s;
 }
+
+a:hover::after {
+    opacity: 1;
+    transition-delay: 1s;
+}
