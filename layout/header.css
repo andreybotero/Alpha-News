@@ -103,3 +103,32 @@ a:hover::before {
     opacity: 1;
     animation: lineUp 0.6s ease forwards;
 }
+
+@keyframes lineUp {
+    0% {
+        transform-origin: 50% 100%;
+        transform: scale3d(1, 0.045, 1);
+    }
+
+    50% {
+        transform-origin: 50% 100%;
+        transform: scale3d(1, 1, 1);
+    }
+
+    51% {
+        transform-origin: 50% 0%;
+        transform: scale3d(1, 1, 1);
+    }
+
+    100% {
+        transform-origin: 50% 0%;
+        transform: scale3d(1, 0.045, 1);
+    }
+}
+
+a:after {
+    content: '';
+    transition: opacity 1s;
+    opacity: 0;
+    transition-delay: 0s;
+}
