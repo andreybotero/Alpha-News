@@ -1,0 +1,48 @@
+/*article titulo, autor, data*/
+#ATAD{}
+
+/*Titulo da noticia*/
+#titulo{ font-size: xx-large;
+text-align: center;}
+
+/*subtitulo*/
+#subtitulo{ font-size: medium;
+text-align: left;}
+
+/*autor*/
+#autor{}
+
+/*data*/
+#data{}
+
+/*img da noticia*/
+#imgnot{margin: auto;
+display: block;}
+
+/*Article da Noticia*/
+#AN{}
+
+/*Section do corpo da noticia*/
+#SCN{}
+
+/*Corpo da noticia*/
+
+
+/*Article leia mais*/
+#ALM{}
+
+/*Section Leia mais*/
+#SLM{ display: flex;
+flex-direction: column;}
+
+/*Link para outras pags*/
+.pags{}
+
+
+/*Section botton voltar para home*/
+#SBVPH{}
+
+/*button da home*/
+#Voltarhome{ width: 10%;}
+
+/**/
