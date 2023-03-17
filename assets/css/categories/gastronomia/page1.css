@@ -32,6 +32,13 @@ h2{
 .img_1{
     margin: 10px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.sections{
+    
 }
 
 
