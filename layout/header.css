@@ -34,3 +34,9 @@ li {
     font-size: 20px;
     margin-top: 10px;
 }
+
+a {
+    color: #e3e8ec;
+    text-decoration: none;
+    padding: 25px;
+}
