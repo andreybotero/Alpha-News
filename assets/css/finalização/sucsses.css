@@ -1,8 +1,10 @@
+/*estilização do corpo*/
 body {
     padding: 0;
     margin: 0;
     background-color: rgb(246,235,213);
 }
+/* estilização da div*/
 div {
     display: flex;
     justify-content: center;
@@ -15,14 +17,17 @@ div {
     margin: 0;
     padding: 0;
 }
+/*estilização do botão*/
 #button {
     background-color:#7e94a2;
 }
+/*  estilização do iframe*/
 #iframe1 {
     position: fixed;
     bottom: 0;
     height: 120px;
 }
+/* segunda parte da estilização do iframe*/
 #iframe1 {
     position: fixed;
     bottom: 0;
