@@ -91,3 +91,9 @@ a.link-up {
     font-family: 'open_sansregular';
 
 }
+
+a::before {
+    height: 15px;
+    top: 100%;
+    opacity: 0;
+}
