@@ -29,3 +29,6 @@ input, textarea {
 
 
 }
+#submit:hover {
+    color: white;
+}
