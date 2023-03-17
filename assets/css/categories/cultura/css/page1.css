@@ -52,6 +52,40 @@ pa1 {
     height: 25%;
     padding: 10px;
 }
+#festfigo{
+    background-image: url(../../../../img/festa\ do\ figo.webp);
+}
+#porksfest{
+    background-image: url(../../../../img/porks\ festival.jfif);
+}
+#casacult{
+    background-image: url(../../../../img/casa\ da\ cultura.webp);
+}
+#biblioteca{
+    background-image: url(../../../../img/biblioteca\ publica.jpg);
+}
+#artederua{
+    background-image: url(../../../../img/batalha\ de\ rima.webp);
+}
+#batalha{
+    background-image: url(../../../../img/batalha\ de\ rima.webp);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 a {
     text-decoration: none;
     color: #000;
