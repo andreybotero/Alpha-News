@@ -1,3 +1,9 @@
+/*Fonte para o site*/
+@font-face {
+    font-family: titulo;
+    src: url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap');
+}
+
 /* estilização do corpo do projeto*/
 body {
     margin: 0;
@@ -13,6 +19,8 @@ body {
 h1 {
     text-align: center;
     font-size: 40px;
+    font-family: 'IBM Plex Mono', monospace;
+
 }
 
 /*  parte de uma estilização do article*/
@@ -23,7 +31,6 @@ h1 {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-
 }
 
 /* estilização do botão */
@@ -74,7 +81,6 @@ h1 {
 body {
     margin: 0;
     padding: 0;
-
 }
 
 /*  estilização final do article*/
@@ -100,7 +106,6 @@ input:hover {
 /* estilização do botão para centralizar */
 p {
     text-align: center;
-
 }
 
 /* para deixar tudo no centro*/
