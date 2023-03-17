@@ -23,3 +23,9 @@ input {
 input, textarea {
     width: 100%;
 }
+#submit {
+    width: 30%;
+    margin: 10px auto;
+
+
+}
