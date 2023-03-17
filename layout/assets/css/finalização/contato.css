@@ -1,0 +1,106 @@
+/* estilização do navegador*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*estilização de parte do formulario formulario*/
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 20px;
+    max-width: 500px;
+}
+/* parte da estlização do input*/
+input {
+    color: #7e94a2;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #34576b;
+    display: block;
+/* outra parte da estilização do input*/
+}
+input
+    area {
+    width: 100%;
+}
+/* estilização do submit*/
+#submit {
+    width: 30%;
+    margin: 10px auto;
+
+
+}
+/* colocação de houver */
+#submit:hover {
+    color: white;
+}
+/* estilização de todas labels*/
+label {
+    margin: 5px 0px;
+}
+/*parte da estilização do body*/
+body {
+    background-color: #7e94a2;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+/*estilização do campo de mensagens*/
+textarea {
+    resize: none;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: black;
+    border: 1px solid #57788b;
+    font-family: Verdana;
+    width: 190px;
+}
+/* estilização do h1*/
+h1 {
+    font-family:Verdana;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+/*abertura de div para dividir o form*/
+div {
+    width: 60%;
+    margin: auto;
+    padding-top: 25px;
+}
+/*estilização final do body*/
+body {
+    margin: 0px;
+    padding: 0;
+}
+/* estilização do button*/
+button {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px auto;
+    width: 60%;
+}
+/* estilo houver no botão*/
+button:hover {
+    background-color: #57788b;
+}
+/* edição da div*/
+.midle-art {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    background-color: white;
+    width: 30%;
+    height: 70%;
+    border-radius:15px;
+    box-shadow: 0 0 15px;
+}
