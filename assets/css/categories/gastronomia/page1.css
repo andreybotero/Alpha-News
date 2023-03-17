@@ -40,7 +40,9 @@ h2{
 .sections{
     padding: 10px;
     justify-content: space-between;
-    border-radius: 10px;
+    border-radius: 15px;
+    margin-left: 20px;
+
 }
 
 
