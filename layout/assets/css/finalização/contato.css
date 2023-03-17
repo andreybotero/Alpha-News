@@ -59,3 +59,7 @@ div {
     margin: auto;
     padding-top: 25px;
 }
+body{
+    margin: 0px;
+    padding: 0;
+}
