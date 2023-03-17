@@ -36,7 +36,9 @@ pa1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 10px;
 }
-.sections {
+    
+#festfigo{
+    background-image: url(../../../../img/festa\ do\ figo.webp);
     justify-content: space-between;
     border-radius: 15px;
     margin-left: 20px;
@@ -52,23 +54,90 @@ pa1 {
     height: 25%;
     padding: 10px;
 }
-#festfigo{
-    background-image: url(../../../../img/festa\ do\ figo.webp);
-}
 #porksfest{
     background-image: url(../../../../img/porks\ festival.jfif);
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    text-align: justify;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: -webkit-box-shadow 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    width: auto;
+    height: 25%;
+    padding: 10px;
 }
 #casacult{
     background-image: url(../../../../img/casa\ da\ cultura.webp);
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    text-align: justify;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: -webkit-box-shadow 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    width: auto;
+    height: 25%;
+    padding: 10px;
 }
 #biblioteca{
     background-image: url(../../../../img/biblioteca\ publica.jpg);
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    text-align: justify;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: -webkit-box-shadow 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    width: auto;
+    height: 25%;
+    padding: 10px;
 }
 #artederua{
-    background-image: url(../../../../img/batalha\ de\ rima.webp);
+    background-image: url(../../../../img/arte\ de\ rua.jpg);
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    text-align: justify;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: -webkit-box-shadow 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    width: auto;
+    height: 25%;
+    padding: 10px;
 }
 #batalha{
     background-image: url(../../../../img/batalha\ de\ rima.webp);
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    text-align: justify;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: -webkit-box-shadow 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    width: auto;
+    height: 25%;
+    padding: 10px;
 }
 
 
