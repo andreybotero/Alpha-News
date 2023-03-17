@@ -43,3 +43,7 @@ pa1 {
     width: auto;
     height: 25%;
 }
+a {
+    text-decoration: none;
+    color: #000;
+}
