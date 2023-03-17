@@ -81,3 +81,7 @@ a::after {
     pointer-events: none;
 
 }
+
+a:before {
+    content: '';
+}
