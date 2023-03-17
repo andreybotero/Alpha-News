@@ -1,168 +1,171 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
 
 * {
-  font-family: Roboto;
-  margin: 0;
-  padding: 0;
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
 }
 
-.footer-distributed{
-	background: #3b4350;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-	box-sizing: border-box;
-	width: 100%;
-	font: bold 16px sans-serif;
-	text-align: left;
-	padding: 50px 60px 40px;
-	overflow: hidden;
+.footer-geral {
+    background: #3b4350;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    font: bold 16px sans-serif;
+    text-align: left;
+    padding: 50px 60px 40px;
+    overflow: hidden;
 }
+
 img {
     height: 35px;
     height: 35px;
 }
+
 section {
-  width: 100%;
-  display: inline-block;
-  background: #ccc;
-  height: 60vh;
-  text-align: center;
-  font-size: 22px;
-  font-weight: 700;
-  text-decoration: underline;
+    width: 100%;
+    display: inline-block;
+    background: #ccc;
+    height: 60vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 
 /* Footer 2 */
 
-.footer-distributed .footer2{
-	float: left;
+.footer-geral .footer2 {
+    float: left;
 }
 
 /* The company logo */
 
-.footer-distributed h3{
-	color:  #ffffff;
-	font: normal 36px 'Roboto', cursive;
-	margin: 0 0 10px;
+.footer-geral h3 {
+    color: #ffffff;
+    font: normal 36px 'Roboto', cursive;
+    margin: 0 0 10px;
 }
 
-.footer-distributed h3 span{
-	color:  #5383d3;
+.footer-geral h3 span {
+    color: #5383d3;
 }
 
 /* Footer links */
 
-.footer-distributed .links{
-	color:  #ffffff;
-	margin: 0 0 10px;
-	padding: 0;
+.footer-geral .links {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 0 10px;
+    padding: 0;
 }
 
-.footer-distributed .links a{
-	display:inline-block;
-	line-height: 1.8;
-	text-decoration: none;
-	color:  inherit;
+.footer-geral .links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
 }
 
-.footer-distributed .footer-company-name{
-	color:  #8f9296;
-	font-size: 14px;
-	font-weight: normal;
-	margin: 0;
+.footer-geral .nome {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
 }
 
 /* Footer social icons */
 
-.footer-distributed .footer-icons{
-	margin-top: 40px;
+.footer-geral .git-insta {
+    margin-top: 40px;
 }
 
-.footer-distributed .footer-icons a{
-	display: inline-block;
-	width: 35px;
-	height: 35px;
-	cursor: pointer;
-	background-color:  #33383b;
-	border-radius: 2px;
+.footer-geral .git-insta a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 100%;
 
-	font-size: 20px;
-	color: #ffffff;
-	text-align: center;
-	line-height: 35px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
 
-	margin-right: 3px;
-	margin-bottom: 5px;
+    margin-right: 3px;
+    margin-bottom: 5px;
 }
 
-/* Footer Right */
+/* Footer 3 */
 
-.footer-distributed .footer-right{
-	float: right;
+.footer-geral .footer3 {
+    float: right;
 }
 
-.footer-distributed .footer-right p{
-	display: inline-block;
-	vertical-align: top;
-	margin: 15px 42px 0 0;
-	color: #ffffff;
+.footer-geral .footer p {
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 42px 0 0;
+    color: #ffffff;
 }
 
 /* The contact form */
 
-.footer-distributed form{
-	display: inline-block;
+.footer-geral form {
+    display: inline-block;
 }
 
-.footer-distributed form input,
-.footer-distributed form textarea{
-	display: block;
-	border-radius: 3px;
-	box-sizing: border-box;
-	background-color:  #1f2022;
-	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
-	border: none;
-	resize: none;
+.footer-geral form input,
+.footer-geral form textarea {
+    display: block;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
 
-	font: inherit;
-	font-size: 14px;
-	font-weight: normal;
-	color:  #d1d2d2;
+    font: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    color: #d1d2d2;
 
-	width: 400px;
-	padding: 18px;
+    width: 400px;
+    padding: 18px;
 }
 
-.footer-distributed ::-webkit-input-placeholder {
-	color:  #5c666b;
+.footer-geral ::-webkit-input-placeholder {
+    color: #5c666b;
 }
 
-.footer-distributed ::-moz-placeholder {
-	color:  #5c666b;
-	opacity: 1;
+.footer-geral ::-moz-placeholder {
+    color: #5c666b;
+    opacity: 1;
 }
 
-.footer-distributed :-ms-input-placeholder{
-	color:  #5c666b;
+.footer-geral :-ms-input-placeholder {
+    color: #5c666b;
 }
 
 
-.footer-distributed form input{
-	height: 55px;
-	margin-bottom: 15px;
+.footer-geral form input {
+    height: 55px;
+    margin-bottom: 15px;
 }
 
-.footer-distributed form textarea{
-	height: 100px;
-	margin-bottom: 20px;
+.footer-geral form textarea {
+    height: 100px;
+    margin-bottom: 20px;
 }
 
-.footer-distributed form button{
-	border-radius: 3px;
-	background-color:  #33383b;
-	color: #ffffff;
-	border: 0;
-	padding: 15px 50px;
-	font-weight: bold;
-	float: right;
+.footer-geral form button {
+    border-radius: 3px;
+    background-color: #33383b;
+    color: #ffffff;
+    border: 0;
+    padding: 15px 50px;
+    font-weight: bold;
+    float: right;
 }
