@@ -35,3 +35,9 @@ input, textarea {
 label {
     margin: 5px 0px;
 }
+
+body {
+    background-color:#7e94a2;
+    margin: 0;
+    padding: 0;
+}
