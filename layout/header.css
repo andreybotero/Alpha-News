@@ -1,14 +1,15 @@
+/*Edição do geral */
 * {
     margin: 0;
     padding: 0;
 }
-
+/*Edição do body */
 body {
     margin: 0;
     padding: 0;
     background-color: rgb(246, 235, 213);
 }
-
+/*Edição geral da Lista de navegação*/
 .header {
     display: flex;
     flex-direction: column;
