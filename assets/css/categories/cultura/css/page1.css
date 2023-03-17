@@ -4,7 +4,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 #ha1 {
-    background-color: rgb(246, 235, 213);
+    background-color: black;
+    color: #fff;
     text-align: center;
     font-size: 30px;
     font-family: georgia;
@@ -21,9 +22,12 @@ body {
     list-style-type: none;
 }
 h2 {
-    text-align: center;
+    text-align: justify;
     font-size: 20px;
     font-family: georgia;
+    background-color: #000; 
+    color: #fff;
+    
 }
 img {
     margin: 10px;
@@ -38,7 +42,7 @@ pa1 {
 }
     
 #festfigo{
-    background-image: url(../../../../img/festa\ do\ figo.webp);
+    background-image: url(../../../../img/festa\ do\ figo.webp); 
     background-size: cover;
     justify-content: space-between;
     border-radius: 15px;
