@@ -8,16 +8,16 @@ body {
     text-align: center;
     font-size: 30px;
     font-family: georgia;
-    width: 90%;
-    height: 10%;
     border-radius: 5px;
-    
-    
+    margin-left: 85px;
+    margin-right: 85px;   
+    padding: 15px;
 }
+
 #art01 {
     display: flex;
     margin: 50px;
-    padding: 10px;
+    padding: 2%;
     list-style-type: none;
 }
 h2 {
