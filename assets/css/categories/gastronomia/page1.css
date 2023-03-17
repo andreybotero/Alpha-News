@@ -38,7 +38,8 @@ h2{
 }
 
 .sections{
-    
+    padding: 10px;
+    justify-content: space-between;
 }
 
 
