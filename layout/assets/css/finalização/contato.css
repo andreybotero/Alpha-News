@@ -32,3 +32,6 @@ input, textarea {
 #submit:hover {
     color: white;
 }
+label {
+    margin: 5px 0px;
+}
