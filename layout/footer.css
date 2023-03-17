@@ -8,6 +8,8 @@
 
 body {
     background-color: rgb(246, 235, 213);
+    margin: 0;
+    padding: 0;
 }
 
 .footer-geral {
@@ -106,6 +108,9 @@ section {
 .footer-geral .footer3 {
     float: right;
 }
+p {
+    margin-bottom: 10px;
+}
 
 .footer-geral .footer p {
     display: inline-block;
@@ -164,7 +169,7 @@ section {
 }
 
 .footer-geral form button {
-    border-radius: 3px;
+    border-radius: 4px;
     background-color: #33383b;
     color: #ffffff;
     border: 0;
