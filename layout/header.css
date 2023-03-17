@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -39,4 +39,9 @@ a {
     color: #e3e8ec;
     text-decoration: none;
     padding: 25px;
+}
+
+.header {
+    height: 195px;
+    padding: 0 5%;
 }
