@@ -6,7 +6,7 @@ body {
 #ha1 {
     text-align: center;
     font-family: Georgia;
-    font-size: 25px;
+    font-size: 30px;
 }
 #art01 {
     display: flex;
@@ -16,6 +16,8 @@ body {
 }
 h2 {
     text-align: center;
+    color: rgb(246, 235, 213);
+    font-family: georgia;
 }
 img {
     margin: 10px;
