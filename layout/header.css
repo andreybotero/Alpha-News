@@ -46,3 +46,10 @@ a {
     padding: 0 5%;
 }
 
+img {
+    height: 90px;
+    width: 90px;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
