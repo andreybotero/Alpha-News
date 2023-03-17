@@ -40,9 +40,24 @@ flex-direction: column;}
 
 
 /*Section botton voltar para home*/
-#SBVPH{}
+#SBVPH{ margin-top: 10%;}
 
-/*button da home*/
-#Voltarhome{ width: 10%;}
+/*linkn da home*/
+#LH{ font-style: none;
+    margin-top: 10%;
+    margin-left: 10%
+    color: ;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+    width: 140px;
+    right: 20px;
+}
 
 /**/
+span.material-icons {
+    font-size: 18px;
+    position: absolute;
+    left: 15px;
+    top: 4px;
+}
