@@ -13,6 +13,7 @@ body {
     text-align: center;
     font-size: 30px;
     margin-top: 5%;
+    color: palevioletred;
 }
 
 .texto {
@@ -47,7 +48,7 @@ video{
     height: 300px;
     display: flex;
     border-radius: 2%;
-    margin: 10px;
+    margin: 60px;
 }
 
 .sin {
@@ -70,6 +71,7 @@ p {
 h2 {
     display: flex;
     justify-content: center;
+    color: pink;
 }
 
 #ppp {
@@ -77,6 +79,13 @@ h2 {
 
 }
 
-.texto {
-    padding-bottom:55%;
+#flexionar {
+    display: flex;
+}
+
+#ajeitar {
+    margin-top:5%;
+    text-align: left;
+    border:5px pink ridge;
+    margin-bottom: 1%;
 }
