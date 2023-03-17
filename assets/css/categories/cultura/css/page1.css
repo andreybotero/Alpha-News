@@ -28,7 +28,7 @@ h2 {
     background-color: #000; 
     color: #fff;
     border-radius: 5px;
-    opacity: 3.6;
+    opacity: 0.8;
 
     padding: 5px;
     text-align: end;
@@ -43,11 +43,18 @@ a {
     text-decoration: none;
 }
 
-div p {
-    display: flex;
-    height: 100px;
-    background-color: #34576b;
+p {
     align-items: end;
+    display: flex;
+
+}
+
+div {
+    display: flex;
+    background-image: url("https://github.com/FelipeSantos92Dev.png");
+    justify-content: center;
+    width: 30%;
+    border-radius: 20px;
 }
 
 img {
