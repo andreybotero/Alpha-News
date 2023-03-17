@@ -37,7 +37,6 @@ pa1 {
     margin: 10px;
 }
 .sections {
-    padding: 10px;
     justify-content: space-between;
     border-radius: 15px;
     margin-left: 20px;
@@ -49,9 +48,9 @@ pa1 {
     box-shadow: -webkit-box-shadow 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
-    background-color: rgb(246, 235, 213);
     width: auto;
     height: 25%;
+    padding: 10px;
 }
 a {
     text-decoration: none;
