@@ -6,3 +6,9 @@ body {
 #ha1 {
     text-align: center;
 }
+#art01 {
+    display: flex;
+    margin: 50px;
+    padding: 10px;
+    list-style-type: none;
+}
