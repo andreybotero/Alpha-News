@@ -85,3 +85,9 @@ a::after {
 a:before {
     content: '';
 }
+
+a.link-up {
+
+    font-family: 'open_sansregular';
+
+}
