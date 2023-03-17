@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: rgb(246, 235, 213);
+    background-color:;
 }
 div {
     display: flex;
@@ -16,7 +16,7 @@ div {
     padding: 0;
 }
 #button {
-    background-color: green;
+    background-color:;
 }
 #iframe1 {
     position: fixed;
