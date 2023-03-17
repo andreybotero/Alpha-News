@@ -22,13 +22,26 @@ body {
     list-style-type: none;
 }
 h2 {
-    text-align: justify;
     font-size: 20px;
     font-family: georgia;
     background-color: #000; 
     color: #fff;
-    
+    text-align: end;
+    align-items: end;
+    justify-content: end;
 }
+
+a {
+    text-decoration: none;
+}
+
+div p {
+    display: flex;
+    height: 100px;
+    background-color: #34576b;
+    align-items: end;
+}
+
 img {
     margin: 10px;
     text-align: center;
@@ -42,17 +55,12 @@ pa1 {
 }
     
 #festfigo{
-    background-image: url(../../../../img/festa\ do\ figo.webp); 
+    background-image: url(../../../../img/festa\ do\ figo.webp); opacity: 3,6;
     background-size: cover;
     justify-content: space-between;
     border-radius: 15px;
-    margin-left: 20px;
-    margin-bottom: 25px;
-    margin-right: 20px;
-    text-align: justify;
-    border-radius: 10px;
-    padding: 100px;
-    padding-bottom: 120px;
+    width: 300px;
+    height: 300px;
 
     box-shadow: -webkit-box-shadow 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
@@ -64,13 +72,8 @@ pa1 {
     background-size: cover;
     justify-content: space-between;
     border-radius: 15px;
-    margin-left: 20px;
-    margin-bottom: 25px;
-    margin-right: 20px;
-    text-align: justify;
-    border-radius: 10px;
-    padding: 100px;
-    padding-bottom: 120px;
+    width: 300px;
+    height: 300px;
 
     box-shadow: -webkit-box-shadow 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
@@ -81,13 +84,8 @@ pa1 {
     background-size: cover;
     justify-content: space-between;
     border-radius: 15px;
-    margin-left: 20px;
-    margin-bottom: 25px;
-    margin-right: 20px;
-    text-align: justify;
-    border-radius: 10px;
-    padding: 100px;
-    padding-bottom: 120px;
+    width: 300px;
+    height: 300px;
 
     box-shadow: -webkit-box-shadow 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
@@ -98,13 +96,8 @@ pa1 {
     background-size: cover;
     justify-content: space-between;
     border-radius: 15px;
-    margin-left: 20px;
-    margin-bottom: 25px;
-    margin-right: 20px;
-    text-align: justify;
-    border-radius: 10px;
-    padding: 100px;
-    padding-bottom: 120px;
+    width: 300px;
+    height: 300px;
    
     box-shadow: -webkit-box-shadow 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
@@ -115,13 +108,8 @@ pa1 {
     background-size: cover;
     justify-content: space-between;
     border-radius: 15px;
-    margin-left: 20px;
-    margin-bottom: 25px;
-    margin-right: 20px;
-    text-align: justify;
-    border-radius: 10px;
-    padding: 100px;
-    padding-bottom: 120px;
+    width: 300px;
+    height: 300px;
    
     box-shadow: -webkit-box-shadow 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
@@ -132,23 +120,14 @@ pa1 {
     background-size: cover;
     justify-content: space-between;
     border-radius: 15px;
-    margin-left: 20px;
-    margin-bottom: 25px;
-    margin-right: 20px;
-    text-align: justify;
-    border-radius: 10px;
-    padding: 100px;
-    padding-bottom: 120px;
+    width: 300px;
+    height: 300px;
    
     box-shadow: -webkit-box-shadow 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
 }
 
-a {
-    text-decoration: none;
-    color: #000;
-}
 section:hover{
     transform: scale(1.10);
     transition: 0.5s;
