@@ -1,26 +1,35 @@
-body { background-image:linear-gradient(#e3e8ec, #34576b )}
+body { background-color: white;}
 
 .articles{ margin-left: 20%;
     margin-right: 20%;
 margin-top: 1%;
-background-color: white ;
-padding: 8%;
+padding: 1%;
+display: flex;
+box-shadow: 5px 5px black;
 }
 
-div { background: #e3e8ec; padding-top: 5%;
+#subtitulo{ text-decoration: underline;
+font-size: xx-small;}
+
+div { background: white; padding-top: 5%;
 padding-bottom: 5%;}
-.sections{ display: flex;}
+
+.sections{ display: flex;
+flex-direction: column;
+}
 
 #imgs{ 
-    height: 64px;
-    width: 64px;
+    padding: 2%;
+    display: block;
+    bottom: unset;
 }
 
 #titulonoticia{ font-size: larger;
 font-style: oblique ;
+color: red;
 }
 
-.articles:hover{ background-color: aquamarine;}
+.articles:hover{ }
 
 iframe{ width: 100%;}
 

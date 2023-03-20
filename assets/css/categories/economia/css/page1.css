@@ -38,11 +38,44 @@ flex-direction: column;}
 /*Link para outras pags*/
 .pags{}
 
-
 /*Section botton voltar para home*/
-#SBVPH{}
+#SBVPH{ margin-top: 10%;}
 
-/*button da home*/
-#Voltarhome{ width: 10%;}
+/*linkn da home*/
+#LH{ font-style: none;
+    margin-top: 10%;
+    margin-left: 10%
+    color: ;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+    width: 140px;
+    right: 20px;
+}
 
 /**/
+span.material-icons {
+    font-size: 18px;
+    position: absolute;
+    left: 15px;
+    top: 4px;
+}
+
+/*ID de subtitulo negrito grande*/
+#IDSNG { font-size: large;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+/*Imagem corpo noticia*/
+#imgcn { display: block;
+margin: auto;
+padding: 1%;}
+
+/*paragrafo corpo noticia*/
+.pcn{ font-size: large;
+    text-align: justify;
+margin-top: 1cm;
+margin-left: 3cm;;
+margin-right: 2cm;
+}
