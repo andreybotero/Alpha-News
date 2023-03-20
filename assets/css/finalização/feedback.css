@@ -1,0 +1,133 @@
+/*Fonte para o site*/
+@font-face {
+    font-family: titulo;
+    src: url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap');
+}
+
+/* estilização do corpo do projeto*/
+main {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#e3e8ec, #34576b);
+    display: flex;
+    justify-content: center;
+}
+
+
+/* alinhamento e tamanho da fonte do h1*/
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+/*  parte de uma estilização do article*/
+#pa6 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* estilização do botão */
+#pa4 {
+    border: blanchedalmond;
+    height: 50px;
+    background-color: #69717c;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+/* alinhamento do formulario */
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* estilização do campo de email*/
+#pa2 {
+    border-color: black;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+/* estilização do campo para digitar o nome */
+#pa1 {
+    border-color: black;
+    outline: 0;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+/*campo para digitar a mensagem*/
+#pa3 {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+}
+
+/* estilização final do corpo do projeto*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*  estilização final do article*/
+#pa6 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+/* estilização do botão com as cores do houver */
+#pa4:hover {
+    background-color: white;
+    box-shadow: 0 0 50px black;
+}
+
+/* estilização do botão com houver */
+input:hover {
+    box-shadow: 0 0 50px black;
+}
+
+/* estilização do botão para centralizar */
+p {
+    text-align: center;
+}
+
+/* para deixar tudo no centro*/
+article {
+    justify-content: center;
+}
+
+/* colocação de sombra e profisionalizar o feedback*/
+main {
+    background-color: white;
+    width: 35%;
+    height: 80%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: -webkit-box-shadow: 23px 23px 28px 15px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 23px 23px 28px 15px rgba(0, 0, 0, 0.75);
+    box-shadow: 23px 23px 28px 15px rgba(0, 0, 0, 0.75);
+}
+
+#geral {
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
