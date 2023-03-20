@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(231, 203, 153);
+    background-color: #cab98c;
 }
 h1{
     text-align: center;
@@ -39,6 +39,7 @@ a{
 div:hover{
     opacity: 1;
     background-color: rgba(3, 3, 3, 0.5);
+    height: 300px;
 }
 #cardvest {
   width: 300px;
@@ -49,6 +50,7 @@ div:hover{
   position: relative;
   background-image: url(../../img/vestibular.jpg);
   box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+  background-size: cover;
 }
 #cardcult {
     width: 300px;
@@ -59,6 +61,7 @@ div:hover{
     position: relative;
     background-image: url(../../img/cultura.jpg);
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    background-size: cover;
   }
   #cardcine {
     width: 300px;
@@ -69,6 +72,7 @@ div:hover{
     position: relative;
     background-image: url(../../img/cinema.jpg);
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    background-size: cover;
   }
   #cardgastro {
     width: 300px;
@@ -78,6 +82,7 @@ div:hover{
     cursor: pointer;
     position: relative;
     background-image: url(../../img/gastronomia.jpg);
+    background-size: cover;
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
   }
   #cardesport {
@@ -89,6 +94,7 @@ div:hover{
     position: relative;
     background-image: url(../../img/esportes.jpg);
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    background-size: cover;
   }
   #cardecono {
     width: 300px;
@@ -99,4 +105,5 @@ div:hover{
     position: relative;
     background-image: url(../../img/economia.jpg);
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    background-size: cover;
   }
