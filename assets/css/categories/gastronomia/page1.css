@@ -1,14 +1,16 @@
-body{
-    background-color:#e3e8ec;
-    margin: 10px; 
+body {
+    background-color: #e3e8ec;
+    margin: 10px;
 }
 
-.logo{ margin: auto;
+.logo {
+    margin: auto;
     display: block;
-    width: 64px;}
+    width: 64px;
+}
 
 /*Animação da logo*/
-.logo:hover{
+.logo:hover {
     animation: rotation 2s infinite linear;
 }
 
@@ -23,67 +25,89 @@ body{
     }
 }
 
-.banner{
+.banner {
     text-align: center;
 }
 
-.cate{
-      text-decoration: none;
+.cate {
+    text-decoration: none;
 }
 
 
-.brioche{
+#brioche {
     padding: 10px;
-    justify-content: space-between;
-    border-radius: 15px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    margin-right: 10px;
-    text-align: center;
-    margin: auto;
-    border-radius: 10px;
-    box-shadow: -webkit-box-shadow 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
-    background-color: #d7d6d4;
-    width: auto;
-    height: 25%;
-    padding: 10px;
-
+    display: flex;
+    align-items: center;
 }
 
-h1{
+h1 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 }
 
-#brio2{
+#brio2 {}
 
-}
-
-h2{
+h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     text-align: center;
 }
 
-#brio2{
+#receita {
+
     text-align: center;
+    background-color: #abb9c4;
+    font-size: 20px;
+}
+
+#brio3 {
+    text-align: initial;
     padding: 10px;
     justify-content: space-between;
     margin-right: 10px;
-    text-align: center;
     margin: auto;
-    background-color: #d7d6d4;
+    font-size: 20px;
 }
 
+#bordavd {
+    display: flex;
+    padding: 70px;
+    text-align: center;
+}
 
+.junto {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
 
+#Ncolor {
+    display: flex;
+    background-color: #abb9c4;
+    border-radius: 10px;
+    width: 100%;
+    justify-content: center;
 
+    box-shadow: -webkit-box-shadow 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
 
+}
 
-
-
-
-
+.news2{
+    display: flex;
+    background-color: #abb9c4;
+    border-radius: 5px;
+    width: 90%;
+    justify-content: center;
+    margin: 45px;
+    padding: 1px;
+    box-shadow: -webkit-box-shadow 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    text-align: center;
+}
