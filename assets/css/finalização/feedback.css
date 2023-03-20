@@ -9,7 +9,6 @@ body {
     margin: 0;
     padding: 0;
     background-image: linear-gradient(#e3e8ec, #34576b);
-    height: 100vh;
     display: flex;
     align-items: center;
 }
