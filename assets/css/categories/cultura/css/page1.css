@@ -11,7 +11,7 @@ iframe {
 body {
     margin: 0;
     padding: 0;
-    background-color: #90a1bd;
+    background-color: #c8c5a7;
 }
 
 .img {
@@ -47,7 +47,8 @@ h1 {
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-h2{
+
+h2 {
     text-align: center;
     padding: 10px;
 }
@@ -70,7 +71,7 @@ h2{
     margin: 0;
     margin-left: 20%;
     margin-right: 20%;
-    background-color: rgb(246, 235, 213);
+    background-color: white;
 
 }
 
@@ -89,13 +90,15 @@ h2{
     width: 85px;
     height: 20px;
     border-radius: 3px;
-    background-color: rgb(0, 145, 255);
+    background-color: #3b4350;
     color: white;
+    text-align: center;
 }
 
 .bannerA {
     text-decoration: none;
     color: white;
+    align-items: left;
 }
 
 #img {
@@ -104,4 +107,7 @@ h2{
     margin: 0;
     padding: 0;
     margin-top: 30px;
+}
+#botao{
+    align-items: left;
 }
