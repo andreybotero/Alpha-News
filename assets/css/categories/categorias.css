@@ -40,13 +40,63 @@ div:hover{
     opacity: 1;
     background-color: rgba(3, 3, 3, 0.5);
 }
-.card {
+#cardvest {
   width: 300px;
   height: 300px;
   border-radius: 50%;
   overflow: hidden;
   cursor: pointer;
   position: relative;
-  background-image: url(../../img/festa\ do\ figo.webp);
+  background-image: url(../../img/vestibular.jpg);
   box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
 }
+#cardcult {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    background-image: url(../../img/cultura.jpg);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+  }
+  #cardcine {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    background-image: url(../../img/cinema.jpg);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+  }
+  #cardgastro {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    background-image: url(../../img/gastronomia.jpg);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+  }
+  #cardesport {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    background-image: url(../../img/esportes.jpg);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+  }
+  #cardecono {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    background-image: url(../../img/economia.jpg);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+  }
