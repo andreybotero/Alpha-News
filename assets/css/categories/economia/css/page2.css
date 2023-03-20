@@ -1,0 +1,96 @@
+/*article titulo, autor, data*/
+#ATAD{}
+
+/*Titulo da noticia*/
+#titulo{ font-size: xx-large;
+text-align: center;}
+
+/*subtitulo*/
+#subtitulo{ font-size: medium;
+text-align: left;}
+
+/*autor*/
+#autor{}
+
+/*data*/
+#data{}
+
+/*img da noticia*/
+#imgnot{margin: auto;
+display: block;}
+
+/*Article da Noticia*/
+#AN{}
+
+/*Section do corpo da noticia*/
+#SCN{margin: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    }
+
+/*Corpo da noticia*/
+
+
+/*Article leia mais*/
+#ALM{}
+
+/*Section Leia mais*/
+#SLM{ display: flex;
+flex-direction: column;}
+
+/*Link para outras pags*/
+.pags{}
+
+/*Section botton voltar para home*/
+#SBVPH{ margin-top: 10%;}
+
+/*linkn da home*/
+#LH{ font-style: none;
+    margin-top: 10%;
+    margin-left: 10%
+    color: ;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+    width: 140px;
+    right: 20px;
+}
+
+/**/
+span.material-icons {
+    font-size: 18px;
+    position: absolute;
+    left: 15px;
+    top: 4px;
+}
+
+/*ID de subtitulo negrito grande*/
+#IDSNG { font-size: large;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+/*Imagem corpo noticia*/
+#imgcn { display: block;
+margin: auto;
+padding: 1%;}
+
+/*paragrafo corpo noticia*/
+.pcn{ font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+margin-top: 1cm;
+margin-left: 3cm;;
+margin-right: 2cm;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #90a1bd;
+}
+
+div {
+    background-color: rgb(246, 235, 213);
+padding: 1%;
+}

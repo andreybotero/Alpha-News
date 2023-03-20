@@ -23,7 +23,10 @@ display: block;}
 #AN{}
 
 /*Section do corpo da noticia*/
-#SCN{}
+#SCN{margin: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    }
 
 /*Corpo da noticia*/
 
@@ -73,9 +76,30 @@ margin: auto;
 padding: 1%;}
 
 /*paragrafo corpo noticia*/
-.pcn{ font-size: large;
+.pcn{ font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: justify;
 margin-top: 1cm;
 margin-left: 3cm;;
 margin-right: 2cm;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #90a1bd;
+}
+
+div {
+    background-color: rgb(246, 235, 213);
+padding: 1%;
+}
+
+.marcatexto {
+	box-shadow: 15px 0 0 0 #000, -5px 0 0 0 #000;
+	background: #000;
+	display: inline;
+	padding: 3px 0 !important;
+	position: relative;
+  color:#FFF;
 }
