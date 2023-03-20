@@ -1,7 +1,7 @@
 /* estilização do navegador*/
 * {
     margin: 0;
-    padding: -1px;
+    padding: 0;
     box-sizing: border-box;
 }
 /*estilização de parte do formulario formulario*/
