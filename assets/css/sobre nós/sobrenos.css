@@ -10,8 +10,9 @@ flex-direction: column;}
 }
 
 article {
-    margin: 5%;
+    margin: 5px;
 }
+article:hover{ zoom: 110%;}
 
 #divana{ flex-direction: column;}
 
