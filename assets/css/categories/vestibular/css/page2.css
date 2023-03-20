@@ -13,7 +13,9 @@ body {
     padding: 0;
     background-color: #90a1bd;
 }
-
+#main {
+    margin-top: -10px;
+}
 .img {
     background-image: url(https://i.pinimg.com/originals/bc/b4/ca/bcb4cac648c7b840e4b6db4f7b4f6d89.jpg);
     width: 100%;
