@@ -24,14 +24,13 @@ body {
 }
 
 main {
-    background-color: black;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
     height: 90%;
     border-radius: 10px;
-    box-shadow: -webkit-box-shadow 23px 23px 28px 16px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 23px 23px 28px 16px rgba(0, 0, 0, 0.75);
+    box-shadow: -webkit-box-shadow 23px 23px 28px 16px rgba(169, 0, 0, 0.75);
+    -moz-box-shadow: 23px 23px 28px 16px rgba(223, 25, 25, 0.75);
     box-shadow: 23px 23px 28px 16px rgba(0, 0, 0, 0.75);
     }
 
@@ -92,7 +91,7 @@ h2 {
 }
 
 #backimg {
-    background-image:  url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg-_g8zNmmZTJTDMm06sHHfdkgeS92W1-z-AF45z0X8IsxTuC3qU85eq4cFcjBLcAi0N8RdNagX_ycgDlDyY5HrlCT-BH_gaIXR51z4HtipsbeDj6GyKflE7yYSEg8GccSqNerdLzKb9DS9m6JLJvnkT0sgADaxYhMdHV7XNXbOEww-wlvMYCX3BLRvg/s2000/isso%20se%20chama%20amor.jpg);opacity:0.7;
+    background-image:  url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg-_g8zNmmZTJTDMm06sHHfdkgeS92W1-z-AF45z0X8IsxTuC3qU85eq4cFcjBLcAi0N8RdNagX_ycgDlDyY5HrlCT-BH_gaIXR51z4HtipsbeDj6GyKflE7yYSEg8GccSqNerdLzKb9DS9m6JLJvnkT0sgADaxYhMdHV7XNXbOEww-wlvMYCX3BLRvg/s2000/isso%20se%20chama%20amor.jpg);
     border:5px gray ridge;
 }
 
