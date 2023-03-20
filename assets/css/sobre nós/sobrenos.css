@@ -14,3 +14,5 @@ article { background-color: rgb(149, 45, 45);
     margin-top: 5%;
 }
 
+#divana{ flex-direction: column;}
+
