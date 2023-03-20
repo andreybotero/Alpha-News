@@ -13,7 +13,7 @@ body {
     text-align: center;
     font-size: 30px;
     margin-top: 5%;
-    color: rgb(195, 209, 12);
+    color: rgb(12, 111, 209);
 }
 
 .texto {
@@ -62,7 +62,7 @@ p{
 h2 {
     display: flex;
     justify-content: center;
-    color:rgb(209, 168, 35);
+    color:rgb(35, 113, 209);
 }
 
 #ppp {
@@ -74,11 +74,15 @@ h2 {
     display: flex;
 }
 
-#ajeitar {
-    margin-top:5%;
+#ajeitar{
+    margin-top:2%;
     text-align: left;
-    border:5px rgb(210, 163, 53) ridge;
+    border:3px rgb(21, 88, 132) ridge;
     margin-bottom: 1%;
+}
+#h3{
+    text-align: right;
+    width: 30%;
 }
 
 p {
@@ -86,8 +90,12 @@ p {
 }
 
 #title {
-    background-color: rgb(216, 149, 72);
+    background-color: rgba(173, 133, 0, 0.847);
 }
 #backimg{
 background-image: url(../../../../img/sereiona.png)
+}
+#ppp{
+   text-align: right;
+   width: 30%;
 }
