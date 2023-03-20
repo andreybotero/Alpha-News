@@ -67,7 +67,7 @@ pa1 {
     width: 500px;
     height: 200px;
     margin: 25px;
-    justify-content: space-between;
+    
     box-shadow: -webkit-box-shadow 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
@@ -78,7 +78,7 @@ pa1 {
     width: 500px;
     height: 200px;
     margin: 25px;
-    justify-content: space-between;
+    
     box-shadow: -webkit-box-shadow 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
