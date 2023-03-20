@@ -16,3 +16,6 @@ article { background-color: rgb(149, 45, 45);
 
 #divana{ flex-direction: column;}
 
+.text{}
+
+.nome{ text-align: center;}
