@@ -1,12 +1,11 @@
-
-body{
-    background-color:#e3e8ec;
-    margin: 10px; 
+body {
+    background-color: #e3e8ec;
+    margin: 10px;
 }
 
 /*Animação da logo*/
-.logo:hover{
-  
+.logo:hover {
+
     width: 64px;
     animation: rotation 2s infinite linear;
 }
@@ -21,9 +20,3 @@ body{
         transform: rotate(359deg);
     }
 }
-
-
-
-
-
-
