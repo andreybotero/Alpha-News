@@ -30,7 +30,7 @@ main {
     margin-right: 10%;
     height: 90%;
     border-radius: 10px;
-    box-shadow: -webkit-box-shadow: 23px 23px 28px 16px rgba(0, 0, 0, 0.75);
+    box-shadow: -webkit-box-shadow 23px 23px 28px 16px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 23px 23px 28px 16px rgba(0, 0, 0, 0.75);
     box-shadow: 23px 23px 28px 16px rgba(0, 0, 0, 0.75);
     }
