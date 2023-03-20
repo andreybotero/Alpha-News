@@ -1,65 +1,72 @@
-body { background-image:linear-gradient(#e3e8ec, #34576b )}
-
-.articles{ margin-left: 20%;
-    margin-right: 20%;
-margin-top: 1%;
-background-color: white ;
-padding: 8%;
+body {
+    background-image: linear-gradient(#34576b, #e3e8ec);
+    margin: 10px;
+    font-family:Georgia;
 }
 
-div { background: #e3e8ec; padding-top: 5%;
-padding-bottom: 5%;}
-.sections{ display: flex;}
-
-#imgs{ 
-    height: 64px;
-    width: 64px;
+#ha1 {
+    text-align: center;
 }
 
-#titulonoticia{ font-size: larger;
-font-style: oblique ;
-}
-
-.articles:hover{ background-color: aquamarine;}
-
-iframe{ width: 100%;}
-
-#titulo{font-size: xx-large;
-text-align: center;
-font-style: italic;}
-
-
-
-#vejatambem{ display: flex;
-flex-direction: column;
-}
-
-/*Edição geral da Camerasinha*/
-#img1 {
-    height: 64px;
-    width: 64px;
+#art01 {
+    display: flex;
+    margin: 50px;
     padding: 10px;
-    margin-left: 47%;
+    list-style-type: none;
 }
 
-/*Animação da logo*/
-#img1:hover {
-    width: 64px;
-    animation: rotation 2s infinite linear;
+
+h2 {
+    text-align: center;
 }
 
-/*Animação da Camerasinha*/
-@keyframes rotation {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(359deg);
-    }
+img {
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
 }
 
-#p1:hover {font-size: larger; color: grey;}
+pa1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+}
 
-a { text-decoration: none;
-color: black;}
+.sections {
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    text-align: justify;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: -webkit-box-shadow 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    background-color: #d7d6d4;
+    width: auto;
+    height: 25%;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    transform: scale(1.10);
+    transition: 0.5s;
+    -webkit-box-shadow: 0px 0px 1500px 1500px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 1500px 1500px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 1500px 1500px rgba(0,0,0,0.4);
+
+}
+
+iframe {
+    margin: 0;
+    padding: 0;
+}
