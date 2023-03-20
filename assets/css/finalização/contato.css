@@ -11,6 +11,12 @@ iframe {
     padding: 0;
 }
 
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*estilização de parte do formulario formulario*/
 form {
     display: flex;
@@ -19,6 +25,8 @@ form {
     width: 80%;
     padding-top: 20px;
     max-width: 500px;
+    display: flex;
+    justify-content: center;
 }
 /* parte da estlização do input*/
 input {
@@ -95,6 +103,8 @@ button {
     cursor: pointer;
     margin: 10px auto;
     width: 60%;
+    display: flex;
+    justify-content: center;
 }
 /* estilo houver no botão*/
 button:hover {
