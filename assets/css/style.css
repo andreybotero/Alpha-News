@@ -16,37 +16,6 @@ body {
     width: 110px;
 }
 
-#footer {
-    display: flex;
-    margin-bottom: -5px;
-    bottom: -5px;
-}
-
-.ALL {
-    display: flex;
-}
-
-.principal {
-    display: flex;
-    margin: 10% auto;
-    width: 60%;
-    margin-left: 5%;
-    margin-right: 35%;
-    background-color: white;
-    border: black solid;
-    border-radius: 10px;
-    
-}
-
-a {
-    text-decoration: none;
-}
-
-p {
-    display: flex;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 10px;
-    margin: 10px;
-    color: black;
+.conteiner {
+    background-color: black;
 }
