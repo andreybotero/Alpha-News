@@ -1,46 +1,52 @@
-
-/*edições gerais da página*/
 body{
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(#e3e8ec ,#34576b);
+    background-color: rgb(231, 203, 153);
 }
-    
-  /*edições no título "categorias"*/ 
 h1{
     text-align: center;
-    color: #3f5562;
+    font-size: 30px;
+    font-family: georgia;
 }
-/*edições nos títulos de cada tema das notícias*/
 h2{
-    color: #3f5562;
     text-align: left;
-    font-size: 25px;
 }
-/*edições nas imagens inseridas*/
-img{
-    display: block;
-    border-radius: 50%;
-    margin-left: 15%;
-    box-shadow: 5px 5px 15px rgb(16, 16, 16);
-}
-/*edições na disposição dos temas no layout da página*/
-.container{
-    display: flex;
+
+article{
     justify-content: space-evenly;
-    margin-bottom: 5%;
-    
+    align-items: center;
+    display: flex;
+    margin: 50px;
 }
-/*edições nos links dos temas*/
+img{
+    border-radius: 50%;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 30px;
+    margin-top: 40px;
+    position: relative;
+    bottom: 20px;
+    opacity: 0;
+}
 a{
     text-decoration: none;
+    color: #fff;
 }
-/*edições nos links dos temas*/
-a:hover h2 {
-    color:#c6c1bbce;
-    transform: scale(1.05);
-    font-size: 25px;
+div:hover{
+    opacity: 1;
+    background-color: rgba(3, 3, 3, 0.5);
 }
-a img {
-    transition: 1s;
+.card {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  background-image: url(../../img/festa\ do\ figo.webp);
+  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
 }

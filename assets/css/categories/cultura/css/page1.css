@@ -41,12 +41,17 @@ h2 {
 
 a {
     text-decoration: none;
+
 }
 
 p {
     align-items: end;
     display: flex;
-
+    font-size: 20px;
+    font-family: georgia;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.8;
 }
 
 div {
