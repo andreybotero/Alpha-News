@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+iframe {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #90a1bd;
+}
+
+.img {
+    background-image: url(https://i.pinimg.com/originals/bc/b4/ca/bcb4cac648c7b840e4b6db4f7b4f6d89.jpg);
+    width: 100%;
+    height: 250px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.598);
+}
+
+.Btext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 50px;
+    color: white;
+    width: 100%;
+    height: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+    margin: 0px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.news1 {
+    justify-content: center;
+    margin: 0 auto;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+}
+
+#internews {
+    margin-top: 20px;
+}
+
+#Ncolor {
+    margin: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(246, 235, 213);
+
+}
+
+.DAC {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-left: 75%;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#categ {
+    margin: auto;
+    margin-bottom: 100px;
+    width: 85px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: rgb(0, 145, 255);
+    color: white;
+}
+
+.bannerA {
+    text-decoration: none;
+    color: white;
+}
+
+#img {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
