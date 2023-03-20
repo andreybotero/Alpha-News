@@ -39,8 +39,7 @@ input {
     display: block;
 /* outra parte da estilização do input*/
 }
-input
-    area {
+input {
     width: 100%;
 }
 /* estilização do submit*/
@@ -73,7 +72,7 @@ textarea {
     border-color: black;
     border: 1px solid #57788b;
     font-family: Verdana;
-    width: 190px;
+    width: 178px;
 }
 /* estilização do h1*/
 h1 {

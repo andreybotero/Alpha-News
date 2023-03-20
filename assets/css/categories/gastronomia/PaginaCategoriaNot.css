@@ -1,4 +1,26 @@
+body { background-image:linear-gradient(#e3e8ec, #34576b )}
 
+.articles{ margin-left: 20%;
+    margin-right: 20%;
+margin-top: 1%;
+background-color: white ;
+padding: 8%;
+}
+
+div { background: #e3e8ec; padding-top: 5%;
+padding-bottom: 5%;}
+.sections{ display: flex;}
+
+#imgs{ 
+    height: 64px;
+    width: 64px;
+}
+
+#titulonoticia{ font-size: larger;
+font-style: oblique ;
+}
+
+.articles:hover{ background-color: aquamarine;}
 
 iframe{ width: 100%;}
 
@@ -40,6 +62,7 @@ flex-direction: column;
 #p1:hover {font-size: larger; color: grey;}
 
 a { text-decoration: none;
+
 color: black;}
 
 
@@ -110,4 +133,5 @@ a:hover{
 
 #h1{
     text-align: center;
+color: black;
 }
