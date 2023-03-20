@@ -5,12 +5,12 @@
 }
 
 /* estilização do corpo do projeto*/
-body {
+main {
     margin: 0;
     padding: 0;
     background-image: linear-gradient(#e3e8ec, #34576b);
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 
@@ -122,4 +122,12 @@ main {
     box-shadow: -webkit-box-shadow: 23px 23px 28px 15px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 23px 23px 28px 15px rgba(0, 0, 0, 0.75);
     box-shadow: 23px 23px 28px 15px rgba(0, 0, 0, 0.75);
+}
+
+#geral {
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
 }
