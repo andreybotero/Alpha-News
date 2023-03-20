@@ -47,10 +47,15 @@ h1 {
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+h2{
+    text-align: center;
+    padding: 10px;
+}
 
 .news1 {
     justify-content: center;
     margin: 0 auto;
+    padding-top: 10px;
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
