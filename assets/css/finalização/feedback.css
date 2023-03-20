@@ -28,6 +28,7 @@ form {
     display: flex;
     justify-content: center;
 }
+
 /* parte da estlização do input*/
 input {
     color: #7e94a2;
@@ -37,11 +38,13 @@ input {
     border-radius: 5px;
     border: 1px solid #34576b;
     display: block;
-/* outra parte da estilização do input*/
+    /* outra parte da estilização do input*/
 }
+
 input {
     width: 100%;
 }
+
 /* estilização do submit*/
 #submit {
     width: 30%;
@@ -49,14 +52,17 @@ input {
 
 
 }
+
 /* colocação de houver */
 #submit:hover {
     color: white;
 }
+
 /* estilização de todas labels*/
 label {
     margin: 5px 0px;
 }
+
 /*parte da estilização do body*/
 body {
     background-color: #7e94a2;
@@ -64,6 +70,7 @@ body {
     padding: 0;
     height: 100vh;
 }
+
 /*estilização do campo de mensagens*/
 textarea {
     resize: none;
@@ -74,24 +81,28 @@ textarea {
     font-family: Verdana;
     width: 178px;
 }
+
 /* estilização do h1*/
 h1 {
-    font-family:Verdana;
+    font-family: Verdana;
     font-size: 20px;
     padding: 5px;
     text-align: center;
 }
+
 /*abertura de div para dividir o form*/
 div {
     width: 60%;
     margin: auto;
     padding-top: 25px;
 }
+
 /*estilização final do body*/
 body {
     margin: 0px;
     padding: 0;
 }
+
 /* estilização do button*/
 button {
     padding: 10px;
@@ -105,23 +116,25 @@ button {
     display: flex;
     justify-content: center;
 }
+
 /* estilo houver no botão*/
 button:hover {
     background-color: #57788b;
 }
+
 /* edição da div*/
 .midle-art {
     display: flex;
     justify-content: center;
     margin-top: 10%;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 30%;
     height: 70%;
-    border-radius:15px;
+    border-radius: 15px;
     box-shadow: 0 0 15px;
 }
 
 #footer {
     margin-bottom: -5px;
-    margin-top:140px ;
+    margin-top: 140px;
 }
