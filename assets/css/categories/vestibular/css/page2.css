@@ -53,3 +53,10 @@ h1 {
 #internews {
     margin-top: 20px;
 }
+#Ncolor {
+    margin: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(246, 235, 213);
+
+}
