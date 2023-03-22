@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+#footer {
+    margin: 0;
+    bottom: -5px;
+    display: flex;
+    position: relative;
+}   
+
 body {
     background-color: rgb(246, 235, 213);
     margin: 0;
