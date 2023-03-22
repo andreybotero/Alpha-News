@@ -1,6 +1,8 @@
 body {
     background-color: #e3e8ec;
     margin: 10px;
+    background-image: linear-gradient(#34576b, #e3e8ec);
+    background: url(../../img\ mari/);
 }
 
 .logo {
