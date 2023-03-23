@@ -31,6 +31,10 @@ body {
     }
 }
 
+/*sub titulo*/
+.banner {
+    text-align: center;
+}
 
  /*São os ps do testo*/
 #brioche {
@@ -39,7 +43,6 @@ body {
     align-items: center;
 }
 
-/*São os titulos das receitas*/
 h1 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
