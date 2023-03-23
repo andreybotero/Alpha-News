@@ -30,11 +30,10 @@ body{
 }
 
 #Ncolor {
-    display: flex;
-    width: 80%;
-    margin: 30px;
+    width: 90%;
+    margin: 40px;
     color: #fff;
-    justify-content: center center;
+    justify-content: center;
 }
 
 #sobregiu{
@@ -50,9 +49,14 @@ h1{
 }
 
 .video{
-    text-align: right;
+    text-align: center;
     padding: 55px;
 }
 p{
     color: #fff;
+}
+
+#giu2{
+    text-align: center;
+    margin: 20px;
 }
