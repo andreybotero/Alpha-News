@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    background: url(../../img/luz.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 100%;
+}
+
+.inicio{
+    text-align: center;
+    padding: 15px;
+}
+
+.sobre{
+   color: #fff;
+   text-decoration: none;
+}
+
+.nome{
+    text-align: center;
+    padding: 20px;
+}
+
+.giu{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#Ncolor {
+    display: flex;
+    width: 80%;
+    margin: 30px;
+    color: #fff;
+    justify-content: center center;
+}
+
+#sobregiu{
+    padding: 10px;
+    justify-content: left;
+    margin-right: 10px;
+    margin: auto;
+    font-size: 16px;
+}
+
+h1{
+    text-align: center;
+}
+
+.video{
+    text-align: right;
+    padding: 55px;
+}
+p{
+    color: #fff;
+}
