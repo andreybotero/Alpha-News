@@ -65,7 +65,7 @@ h1 {
     
 }
 /* edição do article todo*/
-#Ncolor {
+#jjp {
     margin: 0;
     margin-left: 20%;
     margin-right: 20%;
@@ -99,7 +99,7 @@ h1 {
     
 }
 /* edição da imagem escolhida */
-#img {
+#ftdoney {
     width: 100%;
     height: 300px;
     margin: 0;
@@ -118,4 +118,68 @@ h1 {
 }
 #footer{
     margin-bottom: -5px;
+    margin-left: -5px;
+}
+
+#estrelas  {
+    text-align: center;
+    color: gold;
+}
+
+section {
+    display: flex;
+    margin: 3%;
+
+    justify-content: space-between;
+}
+
+p {
+    margin: 3%;
+    padding: 3%;
+    font-size: 20px;
+}
+
+img {
+    width: 150px;
+    height: 150px
+}
+
+.card-geral {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    
+}
+
+.card {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+
+.stars {
+    font-size: 2rem;
+    color: #ffc107;
+    margin-bottom: 10px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+#pp2{
+    display: flex;
+    font-size: 12px;
+    justify-content: end;
+}
+#rr2{
+    border: 20px;
 }

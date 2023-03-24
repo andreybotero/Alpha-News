@@ -5,7 +5,6 @@ body {
     padding: 0;
     margin: 0;
     background-color: rgb(246, 235, 213);
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -67,4 +66,18 @@ div {
 
 .sussection {
     border-radius: 100%;
+}
+#footer{
+    margin-bottom: -5px;
+    margin-top:8%;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.susarticle1 {
+    margin: 0%;
+}
+
+#header1 {
+    margin-bottom: 8%;
 }
