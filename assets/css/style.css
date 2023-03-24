@@ -10,9 +10,8 @@ body {
 }
 
 #clima {
-    margin: 10px;
-    margin: bottom;
+    margin: 50px;
     position: fixed;
-    width: 110px;
+    width: 100%;
 }
 

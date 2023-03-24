@@ -10,10 +10,27 @@
 
 <body>
 
-  <!-- HEADER -->
-  <header> <iframe src="layout/header.html" frameborder="0" width="100%" height="196px" scrolling="no"></iframe>
-  </header>
+    <!-- HEADER -->
+    <header> <iframe src="layout/header.html" frameborder="0" width="100%" height="196px" scrolling="no"></iframe>
+    </header>
+    <!--  CLIMA  -->
+    <div class="ALL">
+        <!--  Article para configurações gerais-->
+        <article>
+            <!--  Ancora para o site contendo o link do site com o clima-->
+            <a class="weatherwidget-io" href="https://forecast7.com/pt/n22d97n46d99/valinhos/" data-label_1="VALINHOS"
+                data-label_2="WEATHER" data-font="Times New Roman" data-icons="Climacons Animated" data-days="5"
+                data-shadow="rgba(0, 0, 0, 0.29)" data-highcolor="#ff0000" data-lowcolor="#0015ff"
+                data-suncolor="#eeff00" data-mooncolor="#d3e9f0" data-cloudfill="#95f7ff"
+                data-raincolor="#0900ff">VALINHOS WEATHER</a>
+            <!--  Script para o site contendo o link do site com o clima-->
 
+            <script>
+                !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+            </script>
+        
+        </article>
+    </div>
 
 </body>
 
