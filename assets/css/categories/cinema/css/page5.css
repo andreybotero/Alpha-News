@@ -13,7 +13,7 @@ body {
     text-align: center;
     font-size: 30px;
     margin-top: 5%;
-    color: rgb(54, 21, 133)
+    color: rgb(174, 47, 47)
 }
 
 .texto {
@@ -70,7 +70,7 @@ p {
 h2 {
     display: flex;
     justify-content: center;
-    color:rgb(0, 74, 109)
+    color:rgb(220, 99, 12)
 }
 
 #ppp {
@@ -83,14 +83,15 @@ h2 {
 }
 
 #ajeitar {
+    margin-left: 5%;
     margin-top:5%;
     text-align: left;
-    border:8px rgb(155, 137, 160) ridge;
+    border:8px rgb(209, 127, 95) ridge;
     margin-bottom: 3%;
 }
 
 #backimg {
-    background-color: rgb(161, 154, 173);
+    background-color: rgb(243, 211, 9);
     border:5px gray ridge;
     background-
 }
@@ -115,6 +116,5 @@ p {
     right: 500px;
     border-radius: 2%;
     margin: 15px;
-    background-color: rgb(230, 182, 230);
-    background-image: url(https://www.densetsugames.com.br/wp-content/uploads/2022/10/white-768x480.jpg)
-}
+    background-color: rgb(171, 191, 80);
+    background-image: url(https://www.meugamer.com/wp-content/uploads/2022/01/attack-on-titan-final-season-part-2-assistir-horario.jpg)
