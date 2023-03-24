@@ -85,3 +85,17 @@ body {
     margin: auto;
     grid-gap: 20px;
 }
+
+.grid1>div:nth-child(n + 4) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+
+.grid1>div.maior {
+    grid-column: 1;
+    grid-row: 2 / 4;
+    display: block;
+}
