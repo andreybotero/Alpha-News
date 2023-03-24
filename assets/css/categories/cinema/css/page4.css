@@ -23,11 +23,12 @@ body {
     margin-right: 20%;
     margin: 10px;
 }
+
 #sin {
     display: flex;
-    width: 50px;
-    right: 60px;
-    border-radius: 2%;
+    height: 40px;
+    width: 40px;
+    right: 50px;
     margin: 15px;
 }
 #di123 {
