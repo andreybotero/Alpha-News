@@ -1,65 +1,74 @@
-body { background-image:linear-gradient(#e3e8ec, #34576b )}
-
-.articles{ margin-left: 20%;
-    margin-right: 20%;
-margin-top: 1%;
-background-color: white ;
-padding: 8%;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-div { background: #e3e8ec; padding-top: 5%;
-padding-bottom: 5%;}
-.sections{ display: flex;}
-
-#imgs{ 
-    height: 64px;
-    width: 64px;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c8c5a7;
 }
 
-#titulonoticia{ font-size: larger;
-font-style: oblique ;
+.geral {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
 }
 
-.articles:hover{ background-color: aquamarine;}
-
-iframe{ width: 100%;}
-
-#titulo{font-size: xx-large;
-text-align: center;
-font-style: italic;}
-
-
-
-#vejatambem{ display: flex;
-flex-direction: column;
-}
-
-/*Edição geral da Camerasinha*/
-#img1 {
-    height: 64px;
-    width: 64px;
-    padding: 10px;
-    margin-left: 47%;
-}
-
-/*Animação da logo*/
-#img1:hover {
-    width: 64px;
-    animation: rotation 2s infinite linear;
-}
-
-/*Animação da Camerasinha*/
-@keyframes rotation {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(359deg);
-    }
-}
-
-#p1:hover {font-size: larger; color: grey;}
-
-a { text-decoration: none;
-color: black;}
+.card {
+	position: relative;
+	width: 300px;
+	height: 400px;
+	overflow: hidden;
+	border: 1px solid #ddd;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  
+  .card .content {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 0;
+	padding: 20px;
+	background-color: #fff;
+	transition: height 0.3s ease;
+  }
+  
+  .card:hover .content {
+	height: 150px;
+  }
+  
+  .card .content h2 {
+	font-size: 18px;
+	margin-top: 0;
+  }
+  
+  .card .content p {
+	font-size: 14px;
+	margin-bottom: 10px;
+  }
+  
+  .card .content a {
+	font-size: 14px;
+	text-decoration: none;
+	color: #0077cc;
+	transition: color 0.3s ease;
+  }
+  
+  .card .content a:hover {
+	color: #005580;
+  }
+  
