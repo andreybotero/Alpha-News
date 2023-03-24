@@ -114,3 +114,12 @@ h2 {
 #internews{
     color: #fff;
 }
+
+#vejatambem{ display: flex;
+    flex-direction: column;
+}
+
+#p1{
+    color: #fff;
+    text-decoration: none;
+}

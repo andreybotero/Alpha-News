@@ -145,9 +145,11 @@ h2 {
     text-align: right;
 }
 
-.
-.DAC{
-    color: #fff;
-    
+#vejatambem{ display: flex;
+    flex-direction: column;
 }
 
+#p1{
+    color: #fff;
+    text-decoration: none;
+}

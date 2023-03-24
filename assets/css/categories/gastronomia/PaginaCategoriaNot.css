@@ -136,3 +136,12 @@ a:hover{
     text-align: center;
 }
 
+#vejatambem{ display: flex;
+    flex-direction: column;
+}
+
+#p1{
+    color: #fff;
+    text-decoration: none;
+}
+
