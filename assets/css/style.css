@@ -118,3 +118,10 @@ body {
     height: auto;
 }
 
+.card-info {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
