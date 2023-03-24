@@ -23,10 +23,10 @@ body {
     margin-right: 20%;
     margin: 10px;
 }
-img {
+#sin {
     display: flex;
-    width: 400px;
-    right: 500px;
+    width: 50px;
+    right: 60px;
     border-radius: 2%;
     margin: 15px;
 }
