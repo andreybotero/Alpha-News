@@ -20,3 +20,11 @@ body {
     position: relative;
 }
 
+/* CARROSSEL */
+
+.slider-geral {
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
