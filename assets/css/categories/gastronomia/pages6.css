@@ -128,6 +128,10 @@ h2 {
     color:#fff ;
 }
 
+.title1{
+   text-align: right;
+}
+
 /*titulo*/
 .title2{
    color:#fff ;
@@ -143,7 +147,8 @@ h2 {
 /*titulo*/
 
 .title3{
-    text-align: right;
+    text-align: center;
+    color: #fff;
 }
 
 #internews{
