@@ -22,3 +22,10 @@ body {
     margin-right: 20%;
     margin: 10px;
 }
+img {
+    display: flex;
+    width: 400px;
+    right: 500px;
+    border-radius: 2%;
+    margin: 15px;
+}
