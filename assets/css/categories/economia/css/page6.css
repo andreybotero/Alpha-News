@@ -38,7 +38,7 @@ display: block;}
 flex-direction: column;}
 
 /*Link para outras pags*/
-.pags{}
+.pags{ margin-bottom: 5%;}
 
 /*Section botton voltar para home*/
 #SBVPH{ margin-top: 10%;}
