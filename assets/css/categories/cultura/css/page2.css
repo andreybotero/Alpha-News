@@ -96,7 +96,8 @@ h1 {
 }
 
 #natepics{
-    margin: 25px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #songimg{
@@ -104,11 +105,10 @@ h1 {
     margin-bottom: 500px;
 }
 
-.audio{
+#audio{
     margin-left: 250px;
-    margin-bottom: 500px;
-    margin-top: 10px;
-    padding-bottom: 200px;
+    margin-top: -35%;
+    
     display: flex;
     flex-direction: column;
 }
