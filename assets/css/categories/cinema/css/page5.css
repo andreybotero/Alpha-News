@@ -96,21 +96,14 @@ h2 {
     background-
 }
 
-h3 {
-    color: rgb(0, 0, 0);
-}
-
-p {
-    color: rgb(0, 0, 0);
-}
 
 #title {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0,0,0)
 }
 #h3{
     color: rgb(35, 233, 118);
 }
-#anaana{
+#anaana {
     display: flex;
     width: 400px;
     right: 500px;
@@ -118,3 +111,7 @@ p {
     margin: 15px;
     background-color: rgb(171, 191, 80);
     background-image: url(https://www.meugamer.com/wp-content/uploads/2022/01/attack-on-titan-final-season-part-2-assistir-horario.jpg)
+}
+#internews{
+    margin-left: 70%;
+}
