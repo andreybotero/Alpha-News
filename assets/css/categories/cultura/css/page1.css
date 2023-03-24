@@ -54,6 +54,15 @@ h2 {
     padding: 10px;
 }
 
+.p1{
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px;
+}
+#logocc{
+    background-color: aquamarine;
+}
+
 .news1 {
     justify-content: center;
     margin: 0 auto;
