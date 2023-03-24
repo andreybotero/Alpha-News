@@ -1,0 +1,34 @@
+/* Define o estilo geral do site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Define o estilo do cabeçalho */
+  header {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  /* Define o estilo da navegação */
+  section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section li {
+    margin-right: 20px;
+  }
+  
+#sobre-mim{ display: flex;}
+#art1{ flex-direction: column;}
+
+#experiencia{flex-direction: column;}
+
+#div1{flex-direction: column;}
