@@ -13,7 +13,7 @@ body {
     text-align: center;
     font-size: 30px;
     margin-top: 5%;
-    color: rgb(12, 111, 209);
+    color: rgb(10, 161, 86)
 }
 
 .texto {
@@ -27,21 +27,29 @@ main {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    height: 60%;
+    height: 90%;
     border-radius: 10px;
     box-shadow: -webkit-box-shadow 23px 23px 28px 16px rgba(169, 0, 0, 0.75);
     -moz-box-shadow: 23px 23px 28px 16px rgba(223, 25, 25, 0.75);
+    box-shadow: 23px 23px 28px 16px rgba(0, 0, 0, 0.75);
     }
 
-#img1 {
-    display:block;
-    margin: 0;
-    width: 300px;
-    height: 400px;
+img {
+    display: flex;
+    width: 400px;
+    right: 500px;
     border-radius: 2%;
     margin: 15px;
 }
 
+video{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    border-radius: 2%;
+    margin: 10px;
+    margin-left: 100px;
+}
 
 .sin {
     display: flex;
@@ -49,20 +57,21 @@ main {
     justify-content: center;
 }
 
-#pp{
+#pp {
     display: flex;
     justify-content: center;
     padding: 10px;
     margin: 30px;
 }
-p{
+
+p {
     margin: 10px;
 }
 
 h2 {
     display: flex;
     justify-content: center;
-    color:rgb(35, 113, 209);
+    color:rgb(10, 161, 86)
 }
 
 #ppp {
@@ -74,10 +83,21 @@ h2 {
     display: flex;
 }
 
-#h3{
+#ajeitar {
+    margin-top:5%;
+    margin-left: 5%;
     text-align: left;
-    width: 70%;
-    color: rgb(27, 129, 169);
+    border:8px rgb(11, 245, 109) ridge;
+    margin-bottom: 3%;
+}
+
+#backimg {
+    background-color: rgb(159, 208, 248);
+    border:5px gray ridge;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
 }
 
 p {
@@ -85,31 +105,17 @@ p {
 }
 
 #title {
-    background-color: rgba(249, 169, 19, 0.847);
+    background-color: rgb(0, 0, 0);
 }
-#backimg{
-background-image: url(../../../../img/sereiona.png);
+#h3{
+    color: rgb(35, 233, 118);
 }
-
-#img2{display: block;
-     width: 400px;
-     height: 300px;
+#anaana{
+    display: flex;
+    width: 400px;
     right: 500px;
     border-radius: 2%;
-    margin-left: 0%;
-}
-.ajeitar{ color: rgb(20, 65, 139); }
-
-#aaaaa{ color: rgb(34, 111, 174);
-font-size: 24px;}
-
-#ajeitar {
-    background-color:aquamarine;
-    margin-left:19.75%;
-    margin-right:19.75%;
-    border-radius:25px;
-}
-
-#afastas {
-    padding-top:2%;
+    margin: 15px;
+    background-color: rgb(182, 230, 210);
+    background-image: url
 }
