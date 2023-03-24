@@ -80,3 +80,24 @@ body {
 #footer{
     margin-bottom: -5px;
 }
+
+/*Animação da logo*/
+#img1:hover {
+    animation: rotation 2s infinite linear;
+}
+
+/*Animação da Camerasinha*/
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+#img1{ width: 64px;
+height: 64px;
+margin-left: 47%;
+}
