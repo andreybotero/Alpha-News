@@ -22,6 +22,11 @@ body {
 
 /* CARROSSEL */
 
+.container {
+    margin: 100px;
+    margin-bottom: 75px;
+}
+
 .slider-geral {
     position: relative;
     max-width: 48rem;
@@ -38,6 +43,10 @@ body {
     border-radius: 0.5rem;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    box-shadow: -webkit-box-shadow: 15px 15px 54px 25px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: 15px 15px 54px 25px rgba(0, 0, 0, 0.66);
+    box-shadow: 15px 15px 54px 25px rgba(0, 0, 0, 0.66);
+    ;
 }
 
 .slider::-webkit-scrollbar {
@@ -86,6 +95,13 @@ body {
     grid-gap: 20px;
 }
 
+section.grid1 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
 .grid1>div:nth-child(n + 4) {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -103,7 +119,8 @@ body {
 /* CARDS */
 
 .card {
-    border: 1px solid #ddd;
+    background-color: white;
+    border: 1px solid #000000;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -116,6 +133,7 @@ body {
     border-top-right-radius: 4px;
     max-width: 100%;
     height: auto;
+    margin: 10px;
 }
 
 .card-info {
@@ -135,6 +153,7 @@ body {
 }
 
 .card-info a {
+    margin-bottom: 5px;
     background-color: #007bff;
     color: #fff;
     border-radius: 4px;
