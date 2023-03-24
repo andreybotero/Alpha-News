@@ -26,7 +26,8 @@ body {
     margin-right: 20px;
   }
   
-#sobre-mim{ display: flex;}
+#sobre-mim{ display: flex;
+text-align: justify;}
 #art1{ flex-direction: column;}
 
 #experiencia{flex-direction: column;}
