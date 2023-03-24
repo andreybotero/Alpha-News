@@ -46,7 +46,7 @@ h1 {
     margin: 0px;
     padding: 10px;
     padding-top: 15px;
-    font-size: 30px;
+    font-size: 25px;
     font-family: georgia
 }
 
@@ -73,11 +73,10 @@ h1 {
 
 .linknate {
     color: #000;
+    text-decoration: none;
 }
 .linknate:hover{
-    background-color: white;
-    color: black;
-    font-size: 25px;
+    text-decoration: underline;
 
 }
 
@@ -213,4 +212,10 @@ h1 {
 
 .slider-nav a:hover {
     opacity: 1;
+}
+.p{
+    font-size: 15px;
+}
+#pS{
+    font-size: 15px;
 }
