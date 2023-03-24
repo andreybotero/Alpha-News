@@ -43,3 +43,9 @@ body {
 .slider::-webkit-scrollbar {
     display: none;
 }
+
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
