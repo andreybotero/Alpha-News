@@ -125,3 +125,7 @@ body {
     justify-content: space-between;
     height: 100%;
 }
+
+.card-info h2 {
+    margin-top: 0;
+}
