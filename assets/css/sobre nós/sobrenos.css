@@ -1,6 +1,7 @@
 section{ display: flex;
 padding: 3%;
-flex-direction: column;}
+flex-direction: column;
+margin: 10px;}
 
 .div2{ display: flex;}
 
@@ -12,11 +13,20 @@ flex-direction: column;}
 article {
     margin: 5px;
 }
-article:hover{ zoom: 110%;}
+article:hover{ zoom: 110%;
+
+}
 
 #divana{ flex-direction: column;}
 
-.text{ font-size: 15px;}
+.text{ font-size: 15px;
+flex-direction: column;
+display: flex;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.text2{ text-align: justify;
+font-kerning: none;}
 
 .nome{ text-align: center;
 text-decoration: none;
@@ -25,3 +35,5 @@ font-size: 50px;
 
 a{ text-decoration: none;
     color: black;}
+
+
