@@ -74,3 +74,14 @@ body {
 }
 
 /*   GRID DE NOTICIAS*/
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    margin: auto;
+    grid-gap: 20px;
+}
