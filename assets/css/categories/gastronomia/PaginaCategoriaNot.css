@@ -1,12 +1,10 @@
-
-
 body { background-image:linear-gradient(#e3e8ec, #34576b )}
 
 .articles{ margin-left: 20%;
     margin-right: 20%;
-    margin-top: 1%;
-    background-color: white ;
-     padding: 8%;
+margin-top: 1%;
+background-color: white ;
+padding: 8%;
 }
 
 div { background: #e3e8ec; padding-top: 5%;
@@ -23,7 +21,6 @@ font-style: oblique ;
 }
 
 .articles:hover{ background-color: aquamarine;}
-
 
 iframe{ width: 100%;}
 
@@ -65,6 +62,7 @@ flex-direction: column;
 #p1:hover {font-size: larger; color: grey;}
 
 a { text-decoration: none;
+
 color: black;}
 
 
@@ -84,7 +82,8 @@ body{
 
 #article_1 {
     display: flex;
-    margin-left: 10%;
+    margin: 5px;
+    padding: 10px;
     list-style-type: none;
 }
 
@@ -104,9 +103,9 @@ h2 {
     padding: 10px;
     justify-content: space-between;
     border-radius: 15px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    margin-right: 20px;
     text-align: justify;
     margin: auto;
     border-radius: 10px;
@@ -115,7 +114,7 @@ h2 {
     box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
     background-color: #d7d6d4;
     width: auto;
-    height: 10%;
+    height: 25%;
     padding: 10px;
 }
 
@@ -134,5 +133,6 @@ a:hover{
 
 #h1{
     text-align: center;
-    
+color: black;
 }
+
