@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(246, 235, 213);
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5%;
+    color: rgb(127, 47, 202);
+}
+
+.texto {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin: 10px;
+}
+
+main {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 90%;
+    border-radius: 10px;
+    box-shadow: -webkit-box-shadow 23px 23px 28px 16px rgba(169, 0, 0, 0.75);
+    -moz-box-shadow: 23px 23px 28px 16px rgba(223, 25, 25, 0.75);
+    box-shadow: 23px 23px 28px 16px rgba(0, 0, 0, 0.75);
+    }
+
+img {
+    display: flex;
+    width: 300px;
+    right: 400px;
+    border-radius: 2%;
+    margin: 15px;
+}
+
+
+.sin {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+#pp {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 30px;
+}
+
+p {
+    margin: 10px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color:rgb(29, 93, 166);
+}
+
+#ppp {
+    float: right;
+
+}
+
+#flexionar {
+    display: flex;
+}
+
+#ajeitar {
+    margin-top:5%;
+    text-align: left;
+    border:5px rgb(54, 80, 176) ridge;
+    margin-bottom: 1%;
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+#title {
+    background-color: rgb(222, 217, 217);
+}

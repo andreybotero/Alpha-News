@@ -7,6 +7,11 @@ body {
     height: 100%;
     
     
+
+body{
+    background-color:#e3e8ec;
+    margin: 10px; 
+
 }
 
 .logo {

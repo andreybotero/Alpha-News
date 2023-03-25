@@ -1,5 +1,3 @@
-
-
 body { background-image:linear-gradient(#e3e8ec, #34576b )}
 
 .articles{ margin-left: 20%;
@@ -23,7 +21,6 @@ font-style: oblique ;
 }
 
 .articles:hover{ background-color: aquamarine;}
-
 
 iframe{ width: 100%;}
 
@@ -65,8 +62,6 @@ flex-direction: column;
 #p1:hover {font-size: larger; color: grey;}
 
 a { text-decoration: none;
-color: black;}
-
 
 body{
     background-color:#e3e8ec ;
@@ -145,3 +140,5 @@ a:hover{
     text-decoration: none;
 }
 
+color: black;
+}
