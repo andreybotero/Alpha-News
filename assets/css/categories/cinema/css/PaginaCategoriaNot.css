@@ -70,9 +70,18 @@ iframe {
     margin: 0;
     padding: 0;
 }
-#rodape{
-    margin-top: 90px;
-    margin-bottom: -60px;
-    margin-left: -10px;
-    
+#rodape {
+    display: flex;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin: -10px;
+}
+
+#header {
+    display: flex;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin: -10px;
 }
