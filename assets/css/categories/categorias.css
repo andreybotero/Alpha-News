@@ -67,7 +67,7 @@ a {
 
 /*edições na transição do texto nas imagens*/
 div:hover {
-    >>>>>>>main opacity: 1;
+    opacity: 1;
     background-color: rgba(3, 3, 3, 0.5);
     height: 300px;
 }
@@ -165,7 +165,7 @@ div:hover {
     background-size: cover;
 }
 
-
+/*Edições do footer*/
 #footer {
     position: relative;
     bottom: -5px;

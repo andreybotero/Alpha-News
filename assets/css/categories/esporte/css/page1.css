@@ -62,7 +62,7 @@ h1 {
 /* edição de um paragrafo*/
 #internews {
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 25px;
     
 }
 /* edição do article todo*/
@@ -127,7 +127,7 @@ section {
 p {
     margin: 0 auto;
     padding: 0%;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 img {
@@ -174,7 +174,7 @@ img {
     line-height: 1.5;
 }
 #jj2{
-    font-size: 15px;
+    font-size: 25px;
 }
 #footer{
     margin-bottom: -5px;

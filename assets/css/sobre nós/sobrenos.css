@@ -2,17 +2,19 @@ section{ display: flex;
 padding: 3%;
 flex-direction: column;
 }
+body{background-color:  #c8c5af;}
 
 .div2{ display: flex;}
 
 .imgdasec{ margin: auto;
     display: block ;
+    border-radius: 70%;
 }
 
 article {
     margin: 5px;
 }
-article:hover{ zoom: 110%;
+#pags:hover{ zoom: 110%;
 
 }
 
@@ -22,7 +24,7 @@ article:hover{ zoom: 110%;
 flex-direction: column;
 display: flex;
 font-family: Arial, Helvetica, sans-serif;
-text-align: center;
+text-align: justify;
 }
 
 .text2{ text-align: justify;
@@ -37,4 +39,11 @@ font-size: 50px;
 a{ text-decoration: none;
     color: black;}
 
-
+#pags{ background-color: none;
+    border-radius: 23px;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,1);
+box-shadow: 0px 0px 5px 2px rgba(0,0,0,1);
+    padding: 15px;
+    margin-left: 30%;
+}
