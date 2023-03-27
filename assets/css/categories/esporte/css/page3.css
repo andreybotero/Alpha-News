@@ -1,0 +1,185 @@
+/* edição de margin e padding*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/* edição do iframe*/
+iframe {
+    margin: 0;
+    padding: 0;
+}
+/* edição do corpo do projeto*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c8c5a7;
+}
+/* edição da iamgem */
+.img {
+    background-image: url(../../../../img/banner\ esporte.jpg);
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* edição do banner que foi colocado no fundo */
+.banner {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.598);
+}
+/* edição do paragrafo*/
+.Btext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 50px;
+    color: white;
+    width: 100%;
+    height: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* edição de h1 */
+h1 {
+    text-align: center;
+    margin: 0px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+/* edição da div*/
+.news1 {
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+    margin:auto
+
+}
+/* edição de um paragrafo*/
+#internews {
+    margin-top: 20px;
+    
+    
+}
+/* edição do article todo*/
+#jjp {
+    margin: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color:white;
+
+}
+/* edição da outra div*/
+.DAC {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-left: 75%;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* edição de um paragrafo*/
+#categ {
+    margin: auto;
+    margin-bottom: 100px;
+    width: 85px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: #3b4350;
+    color: white;
+}
+/* edição do banner */
+.bannerA {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    
+}
+/* edição da imagem escolhida */
+#ftdoney {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+#internews{
+    margin-top: 20px;
+}
+.DAC{
+    text-align: right;
+    margin-left: 20%;
+    margin-right: 5%;
+    font-size: 10px;
+    font-family: 'Lucida Sans';
+}
+#footer{
+    margin-bottom: -5px;
+    margin-left: -5px;
+}
+
+#estrelas  {
+    text-align: center;
+    color: gold;
+}
+
+section {
+    display: flex;
+    margin: 3%;
+
+    justify-content: space-between;
+}
+
+p {
+    margin: 3%;
+    padding: 3%;
+    font-size: 20px;
+}
+
+img {
+    width: 150px;
+    height: 150px
+}
+
+.card-geral {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    
+}
+
+.card {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+
+.stars {
+    font-size: 2rem;
+    color: #ffc107;
+    margin-bottom: 10px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+#pp2{
+    display: flex;
+    font-size: 12px;
+    justify-content: end;
+}
+#rr2{
+    border: 20px;
+}

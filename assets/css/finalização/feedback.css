@@ -1,133 +1,127 @@
-/*Fonte para o site*/
-@font-face {
-    font-family: titulo;
-    src: url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap');
-}
-
-/* estilização do corpo do projeto*/
-main {
+/* estilização do navegador*/
+* {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(#e3e8ec, #34576b);
-    display: flex;
-    justify-content: center;
+    box-sizing: border-box;
 }
 
-
-/* alinhamento e tamanho da fonte do h1*/
-h1 {
-    text-align: center;
-    font-size: 40px;
-    font-family: 'IBM Plex Mono', monospace;
-
-}
-
-/*  parte de uma estilização do article*/
-#pa6 {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-/* estilização do botão */
-#pa4 {
-    border: blanchedalmond;
-    height: 50px;
-    background-color: #69717c;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    padding: 20px;
-}
-
-/* alinhamento do formulario */
-.form {
-    display: flex;
-    flex-direction: column;
-}
-
-/* estilização do campo de email*/
-#pa2 {
-    border-color: black;
-    margin-bottom: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 10px;
-}
-
-/* estilização do campo para digitar o nome */
-#pa1 {
-    border-color: black;
-    outline: 0;
-    margin-bottom: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 10px;
-}
-
-/*campo para digitar a mensagem*/
-#pa3 {
-    border-radius: 10px;
-    margin-bottom: 20px;
-    padding-top: 10px;
-    padding-bottom: 15px;
-
-}
-
-/* estilização final do corpo do projeto*/
-body {
+/*estilização do iframe*/
+iframe {
     margin: 0;
     padding: 0;
 }
 
-/*  estilização final do article*/
-#pa6 {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: 50%;
-    margin-bottom: 10px;
-}
-
-/* estilização do botão com as cores do houver */
-#pa4:hover {
-    background-color: white;
-    box-shadow: 0 0 50px black;
-}
-
-/* estilização do botão com houver */
-input:hover {
-    box-shadow: 0 0 50px black;
-}
-
-/* estilização do botão para centralizar */
-p {
-    text-align: center;
-}
-
-/* para deixar tudo no centro*/
 article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*estilização de parte do formulario formulario*/
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 20px;
+    max-width: 500px;
+    display: flex;
     justify-content: center;
 }
-
-/* colocação de sombra e profisionalizar o feedback*/
-main {
+/* parte da estlização do input*/
+input {
+    color: #7e94a2;
     background-color: white;
-    width: 35%;
-    height: 80%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #34576b;
+    display: block;
+/* outra parte da estilização do input*/
+}
+input {
+    width: 100%;
+}
+/* estilização do submit*/
+#submit {
+    width: 30%;
+    margin: 10px auto;
+
+
+}
+/* colocação de houver */
+#submit:hover {
+    color: white;
+}
+/* estilização de todas labels*/
+label {
+    margin: 5px 0px;
+}
+/*parte da estilização do body*/
+body {
+    background-color: #7e94a2;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+/*estilização do campo de mensagens*/
+textarea {
+    resize: none;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: black;
+    border: 1px solid #57788b;
+    font-family: Verdana;
+    width: 178px;
+}
+/* estilização do h1*/
+h1 {
+    font-family:Verdana;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+/*abertura de div para dividir o form*/
+div {
+    width: 60%;
     margin: auto;
-    border-radius: 20px;
-    box-shadow: -webkit-box-shadow: 23px 23px 28px 15px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 23px 23px 28px 15px rgba(0, 0, 0, 0.75);
-    box-shadow: 23px 23px 28px 15px rgba(0, 0, 0, 0.75);
+    padding-top: 25px;
+}
+/*estilização final do body*/
+body {
+    margin: 0px;
+    padding: 0;
+}
+/* estilização do button*/
+button {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+/* estilo houver no botão*/
+button:hover {
+    background-color: #57788b;
+}
+/* edição da div*/
+.midle-art {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    background-color: white;
+    width: 30%;
+    height: 70%;
+    border-radius:15px;
+    box-shadow: 0 0 15px;
 }
 
-#geral {
-    display: flex;
-    justify-content: center ;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
+#footer {
+    margin-bottom: -5px;
+    margin-top:140px ;
 }

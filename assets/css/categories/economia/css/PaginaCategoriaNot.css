@@ -1,0 +1,74 @@
+body { background-color: white;}
+
+.articles{ margin-left: 20%;
+    margin-right: 20%;
+margin-top: 1%;
+padding: 1%;
+display: flex;
+box-shadow: 5px 5px black;
+}
+
+#subtitulo{ text-decoration: underline;
+font-size: xx-small;}
+
+div { background: white; padding-top: 5%;
+padding-bottom: 5%;}
+
+.sections{ display: flex;
+flex-direction: column;
+}
+
+#imgs{ 
+    padding: 2%;
+    display: block;
+    bottom: unset;
+}
+
+#titulonoticia{ font-size: larger;
+font-style: oblique ;
+color: red;
+}
+
+.articles:hover{ }
+
+iframe{ width: 100%;}
+
+#titulo{font-size: xx-large;
+text-align: center;
+font-style: italic;}
+
+
+
+#vejatambem{ display: flex;
+flex-direction: column;
+}
+
+/*Edição geral da Camerasinha*/
+#img1 {
+    height: 64px;
+    width: 64px;
+    padding: 10px;
+    margin-left: 47%;
+}
+
+/*Animação da logo*/
+#img1:hover {
+    width: 64px;
+    animation: rotation 2s infinite linear;
+}
+
+/*Animação da Camerasinha*/
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+#p1:hover {font-size: larger; color: grey;}
+
+a { text-decoration: none;
+color: black;}
