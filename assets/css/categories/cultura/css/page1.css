@@ -16,7 +16,7 @@ body {
 }
 /*Edições no banner*/
 .img {
-    background-image: url(../../../../img/banner\ cultura.jpg);
+    background-image: url(../../../../img/imagens/banners/banner\ cultura.jpg);
     width: 100%;
     height: 250px;
 }
@@ -98,7 +98,7 @@ h1 {
     color: white;
     text-align: center;
 }
-/*Edições no link do botão "voltar"*/
+/*Edições no link no botão de voltar*/
 .bannerA {
     text-decoration: none;
     color: white;
