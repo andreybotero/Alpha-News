@@ -5,6 +5,8 @@
 
 body {
     background-color: rgb(246, 235, 213);
+}
+iframe {
     margin: 0;
     padding: 0;
 }
