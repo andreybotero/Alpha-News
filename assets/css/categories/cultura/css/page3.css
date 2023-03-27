@@ -88,11 +88,13 @@ h1 {
 }
 
 .img {
-    margin-left: 50px;
+
     justify-content: space-between;
-    padding: 50px;
+    margin: 25px;
+    margin-left: -2%;
     display: flex;
 }
+
 .p{
     font-size: 15px;
 }
