@@ -106,3 +106,57 @@ h1 {
     padding: 0;
     margin-top: 30px;
 }
+#estrelas  {
+    text-align: center;
+    color: gold;
+}
+
+section {
+    display: flex;
+    margin: 3%;
+
+    justify-content: space-between;
+}
+
+p {
+    margin: 3%;
+    padding: 3%;
+    font-size: 20px;
+}
+
+img {
+    width: 150px;
+    height: 150px
+}
+
+.card-geral {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    
+}
+
+.card {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+
+.stars {
+    font-size: 2rem;
+    color: #ffc107;
+    margin-bottom: 10px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
