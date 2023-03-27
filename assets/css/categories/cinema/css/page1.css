@@ -6,7 +6,6 @@ body {
 
 #ha1 {
     text-align: center;
-    border-radius: 
 }
 
 #art01 {
@@ -69,6 +68,7 @@ a:hover {
 iframe {
     margin: 0;
     padding: 0;
+    
 }
 #rodape{
     margin-top: 90px;
