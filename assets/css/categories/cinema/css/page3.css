@@ -13,7 +13,7 @@ body {
     text-align: center;
     font-size: 30px;
     margin-top: 5%;
-    color: rgb(127, 47, 202);
+    color: rgb(10, 161, 86)
 }
 
 .texto {
@@ -36,12 +36,20 @@ main {
 
 img {
     display: flex;
-    width: 300px;
-    right: 400px;
+    width: 400px;
+    right: 500px;
     border-radius: 2%;
     margin: 15px;
 }
 
+video{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    border-radius: 2%;
+    margin: 10px;
+    margin-left: 100px;
+}
 
 .sin {
     display: flex;
@@ -63,7 +71,7 @@ p {
 h2 {
     display: flex;
     justify-content: center;
-    color:rgb(29, 93, 166);
+    color:rgb(10, 161, 86)
 }
 
 #ppp {
@@ -77,9 +85,19 @@ h2 {
 
 #ajeitar {
     margin-top:5%;
+    margin-left: 5%;
     text-align: left;
-    border:5px rgb(54, 80, 176) ridge;
-    margin-bottom: 1%;
+    border:8px rgb(11, 245, 109) ridge;
+    margin-bottom: 3%;
+}
+
+#backimg {
+    background-color: rgb(159, 208, 248);
+    border:5px gray ridge;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
 }
 
 p {
@@ -87,5 +105,21 @@ p {
 }
 
 #title {
-    background-color: rgb(222, 217, 217);
+    background-color: rgb(0, 0, 0);
+}
+#h3{
+    color: rgb(35, 233, 118);
+}
+#anaana{
+    display: flex;
+    width: 400px;
+    right: 500px;
+    border-radius: 2%;
+    margin: 15px;
+    background-color: rgb(182, 230, 210);
+    background-image: url
+}
+#rodape{
+    margin-top: 40px;
+    margin-bottom: -5px;
 }

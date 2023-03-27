@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+#eco{ margin-left: 45%;
+    font-size: xx-large;
+    font-family: fantasy;}
 
 footer {
     position: relative;
@@ -77,6 +80,6 @@ body {
     background-color: #c8c5a7;
 }
 
-#footer{
-    margin-bottom: -5px;
+footer{
+   margin-bottom: -10%; 
 }

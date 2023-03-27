@@ -36,7 +36,7 @@ main {
 
 img {
     display: flex;
-    width: 400px;
+    width: 40%;
     right: 500px;
     border-radius: 2%;
     margin: 15px;
@@ -59,9 +59,13 @@ video{
 
 #pp {
     display: flex;
+    width: 400px;
+    right: 500px;
+    border-radius: 2%;
     justify-content: center;
     padding: 10px;
-    margin: 30px;
+    margin: 15px;
+    background-color: rgb(126, 126, 226);
 }
 
 p {
@@ -84,6 +88,7 @@ h2 {
 }
 
 #ajeitar {
+    margin-left: 5%;
     margin-top:5%;
     text-align: left;
     border:5px rgb(99, 119, 190) ridge;
@@ -91,7 +96,7 @@ h2 {
 }
 
 #backimg {
-    background-image:  url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg-_g8zNmmZTJTDMm06sHHfdkgeS92W1-z-AF45z0X8IsxTuC3qU85eq4cFcjBLcAi0N8RdNagX_ycgDlDyY5HrlCT-BH_gaIXR51z4HtipsbeDj6GyKflE7yYSEg8GccSqNerdLzKb9DS9m6JLJvnkT0sgADaxYhMdHV7XNXbOEww-wlvMYCX3BLRvg/s2000/isso%20se%20chama%20amor.jpg);
+    background-image:  url(../../../../img/lovelove.png);
     border:5px gray ridge;
 }
 
@@ -108,4 +113,11 @@ p {
 }
 #h3{
     color: rgb(84, 119, 194);
+}
+#internews{
+    margin-right: 90%;
+}
+#rodape{
+    margin-top: 40px;
+    margin-bottom: -5px;
 }
