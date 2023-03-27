@@ -1,13 +1,23 @@
 
-body{
-    background-color:#e3e8ec;
-    margin: 10px; 
+body {
+    background: url(../../../img/baixados.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 100%;
+    
+    
+}
+
+.logo {
+    margin: auto;
+    display: block;
+    width: 64px;
 }
 
 /*Animação da logo*/
-.logo:hover{
-  
-    width: 64px;
+.logo:hover {
     animation: rotation 2s infinite linear;
 }
 
@@ -22,8 +32,124 @@ body{
     }
 }
 
+/*sub titulo*/
+.banner {
+    text-align: center;
+}
+
+ /*São os ps do testo*/
+#brioche {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/*são os titulos principais*/
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
 
 
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+/*onde tem img e texto tudo junto .-.*/
+#receita {
+
+    text-align: center;
+    font-size: 20px;
+}
+
+#brio3 {
+    padding: 10px;
+    justify-content: left;
+    margin-right: 10px;
+    margin: auto;
+    font-size: 16px;
+    
+}
+
+/*img com texto do lado*/
+#bordavd {
+    display: flex;
+    padding: 70px;
+    text-align: center;
+}
+
+#Ncolor {
+    display: flex;
+    width: 100%;
+    margin: 5px;
+    color: #fff;
+    justify-content: center;
+
+
+}
+/*receita 2*/
+.news2{
+    width: 90%;
+    margin: 60px;
+    padding: 2px;
+    text-align: right;
+    font-size: 14px;
+    color: #fff;
+}
+
+/*titulo*/
+.Btext{
+    color: #fff;
+}
+
+/*texto*/
+#brio3{
+    text-align:right;
+    color:#fff;
+    justify-content: right;
+}
+
+/*texto*/
+#brio4{
+    color:#fff;
+    text-align: center;
+}
+
+/*texto*/
+.news3{
+    color:#fff;
+    font-size: 14px;
+}
+
+/*titulo*/
+.title{
+    color:#fff ;
+}
+
+/*titulo*/
+.title2{
+   color:#fff ;
+}
+
+/*texto*/
+#brio5{
+    text-align: center;
+    color:#fff ;
+    font-size: 12px;
+}
+
+/*titulo*/
+
+.title3{
+    text-align: right;
+}
+
+#internews{
+    color: #fff;
+}
 
 
 

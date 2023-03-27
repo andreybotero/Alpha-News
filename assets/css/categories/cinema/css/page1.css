@@ -15,7 +15,6 @@ body {
     list-style-type: none;
 }
 
-
 h2 {
     text-align: center;
 }
@@ -69,4 +68,11 @@ a:hover {
 iframe {
     margin: 0;
     padding: 0;
+    
+}
+#rodape{
+    margin-top: 90px;
+    margin-bottom: -60px;
+    margin-left: -10px;
+    
 }
