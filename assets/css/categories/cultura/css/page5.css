@@ -89,9 +89,10 @@ h1 {
 }
 
 .img {
-    margin-left: 50px;
+   
     justify-content: space-between;
     padding: 50px;
+
 }
 .p{
     font-size: 15px;
