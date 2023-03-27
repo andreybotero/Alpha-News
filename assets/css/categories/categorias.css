@@ -1,28 +1,36 @@
-body{
+/*Edições gerais*/
+body {
     margin: 0;
     padding: 0;
-    background-color: #c8c5a7;
+    background-color: #cab98c;
 }
-h1{
+
+/*edições do título da página*/
+h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     font-family: georgia;
+    text-shadow: 3px 2px #fff;
 }
-h2{
+
+/*edições do título das categorias*/
+h2 {
     text-align: left;
 }
 
-article{
+/*edições nos articles*/
+article {
     justify-content: space-evenly;
     align-items: center;
     display: flex;
     margin: 50px;
 }
-img{
+
+img {
     border-radius: 50%;
 }
 
-div{
+div {
     display: flex;
     flex-direction: column;
     color: #fff;
@@ -32,26 +40,64 @@ div{
     bottom: 20px;
     opacity: 0;
 }
-a{
+
+a {
     text-decoration: none;
     color: #fff;
 }
-div:hover{
-    opacity: 1;
+
+div:hover {}
+
+/*edições no texto das imagens*/
+div {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    position: relative;
+    bottom: 20px;
+    opacity: 0;
+    padding: 50px;
+}
+
+/*edições nos links*/
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*edições na transição do texto nas imagens*/
+div:hover {
+    >>>>>>>main opacity: 1;
     background-color: rgba(3, 3, 3, 0.5);
     height: 300px;
 }
+
 #cardvest {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  overflow: hidden;
-  cursor: pointer;
-  position: relative;
-  background-image: url(../../img/vestibular.jpg);
-  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
-  background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    background-image: url(../../img/vestibular.jpg);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    background-size: cover;
 }
+
+/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
+#cardvest {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    background-image: url(../../img/vestibular.jpg);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+}
+
+/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
 #cardcult {
     width: 300px;
     height: 300px;
@@ -62,8 +108,11 @@ div:hover{
     background-image: url(../../img/cultura.jpg);
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
     background-size: cover;
-  }
-  #cardcine {
+}
+
+
+/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
+#cardcine {
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -73,8 +122,11 @@ div:hover{
     background-image: url(../../img/cinema.jpg);
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
     background-size: cover;
-  }
-  #cardgastro {
+}
+
+
+/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
+#cardgastro {
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -84,8 +136,11 @@ div:hover{
     background-image: url(../../img/gastronomia.jpg);
     background-size: cover;
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
-  }
-  #cardesport {
+}
+
+
+/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
+#cardesport {
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -95,8 +150,10 @@ div:hover{
     background-image: url(../../img/esportes.jpg);
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
     background-size: cover;
-  }
-  #cardecono {
+}
+
+/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
+#cardecono {
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -106,4 +163,12 @@ div:hover{
     background-image: url(../../img/economia.jpg);
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
     background-size: cover;
-  }
+}
+
+
+#footer {
+    position: relative;
+    bottom: -5px;
+    margin: 0;
+    padding: 0;
+}
