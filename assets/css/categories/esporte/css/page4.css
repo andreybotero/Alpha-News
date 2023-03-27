@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 /* edição do iframe*/
 iframe {
@@ -61,28 +62,32 @@ h1 {
 /* edição de um paragrafo*/
 #internews {
     margin-top: 20px;
-    
+    font-size: 15px;
     
 }
 /* edição do article todo*/
-#jjp {
+#Ncolor {
     margin: 0;
     margin-left: 20%;
     margin-right: 20%;
     background-color:white;
 
+} 
+
+#size {
+    font-size: 8px;
 }
 /* edição da outra div*/
 .DAC {
     display: flex;
     flex-direction: column;
     text-align: justify;
-    margin-left: 75%;
-    font-size: 10px;
+    margin-left: 80%;
+    font-size: small;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /* edição de um paragrafo*/
-#categ {
+#pp2 {
     margin: auto;
     margin-bottom: 100px;
     width: 85px;
@@ -99,31 +104,17 @@ h1 {
     
 }
 /* edição da imagem escolhida */
-#ftdoney {
+#fotinha {
     width: 100%;
     height: 300px;
     margin: 0;
     padding: 0;
     margin-top: 30px;
 }
-#internews{
-    margin-top: 20px;
-}
-.DAC{
-    text-align: right;
-    margin-left: 20%;
-    margin-right: 5%;
-    font-size: 10px;
-    font-family: 'Lucida Sans';
-}
-#footer{
-    margin-bottom: -5px;
-    margin-left: -5px;
-}
-
 #estrelas  {
-    text-align: center;
+    margin: 0 auto;
     color: gold;
+    font-size: 30px;
 }
 
 section {
@@ -134,28 +125,35 @@ section {
 }
 
 p {
-    margin: 3%;
-    padding: 3%;
-    font-size: 20px;
+    margin: 0 auto;
+    padding: 0%;
+    font-size: 15px;
 }
 
 img {
-    width: 150px;
-    height: 150px
+    width: 100px;
+    height: 100px
 }
 
 .card-geral {
-    border: 1px solid #ccc;
-    border-radius: 10px;
+    border: 1px solid #000000;
+    background-color: white;
     padding: 20px;
+    margin: 10px;
     max-width: 400px;
-    
+}
+
+#all-cards{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;   
 }
 
 .card {
     margin: 0 auto;
     text-align: center;
     display: flex;
+    color:black
 }
 
 .stars {
@@ -175,12 +173,9 @@ img {
     font-size: 1.2rem;
     line-height: 1.5;
 }
-#pp2{
-    display: flex;
-    font-size: 12px;
-    justify-content: end;
+#jj2{
+    font-size: 15px;
 }
-#rr2{
-    border: 20px;
+#footer{
+    margin-bottom: -5px;
 }
-

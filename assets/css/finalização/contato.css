@@ -28,6 +28,7 @@ form {
     display: flex;
     justify-content: center;
 }
+
 /* parte da estlização do input*/
 input {
     color: #7e94a2;
@@ -37,11 +38,13 @@ input {
     border-radius: 5px;
     border: 1px solid #34576b;
     display: block;
-/* outra parte da estilização do input*/
+    /* outra parte da estilização do input*/
 }
+
 input {
     width: 100%;
 }
+
 /* estilização do submit*/
 #submit {
     width: 30%;
@@ -49,14 +52,17 @@ input {
 
 
 }
+
 /* colocação de houver */
 #submit:hover {
     color: white;
 }
+
 /* estilização de todas labels*/
 label {
     margin: 5px 0px;
 }
+
 /*parte da estilização do body*/
 body {
     background-color: #7e94a2;
@@ -64,6 +70,7 @@ body {
     padding: 0;
     height: 100vh;
 }
+
 /*estilização do campo de mensagens*/
 textarea {
     resize: none;
@@ -74,24 +81,28 @@ textarea {
     font-family: Verdana;
     width: 178px;
 }
+
 /* estilização do h1*/
 h1 {
-    font-family:Verdana;
+    font-family: Verdana;
     font-size: 20px;
     padding: 5px;
     text-align: center;
 }
+
 /*abertura de div para dividir o form*/
 div {
     width: 60%;
     margin: auto;
     padding-top: 25px;
 }
+
 /*estilização final do body*/
 body {
     margin: 0px;
     padding: 0;
 }
+
 /* estilização do button*/
 button {
     padding: 10px;
@@ -105,10 +116,12 @@ button {
     display: flex;
     justify-content: center;
 }
+
 /* estilo houver no botão*/
 button:hover {
     background-color: #57788b;
 }
+
 /* edição da div*/
 .midle-art {
     display: flex;
@@ -117,11 +130,60 @@ button:hover {
     background-color: white;
     width: 30%;
     height: 70%;
-    border-radius:15px;
+    border-radius: 15px;
     box-shadow: 0 0 15px;
 }
 
 #footer {
     margin-bottom: -5px;
-    margin-top:140px ;
+    margin-top: 140px;
+}
+
+/* Estilo para o contêiner da pop-up */
+.popup-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+/* Estilo para o conteúdo da pop-up */
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Estilo para o ícone de sucesso */
+.popup-icon {
+    font-size: 80px;
+    color: green;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o texto de sucesso */
+.popup-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o botão de fechar */
+.popup-close {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
 }
