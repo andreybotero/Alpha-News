@@ -59,9 +59,13 @@ video{
 
 #pp {
     display: flex;
+    width: 400px;
+    right: 500px;
+    border-radius: 2%;
     justify-content: center;
     padding: 10px;
-    margin: 30px;
+    margin: 15px;
+    background-color: rgb(126, 126, 226);
 }
 
 p {
@@ -84,6 +88,7 @@ h2 {
 }
 
 #ajeitar {
+    margin-left: 5%;
     margin-top:5%;
     text-align: left;
     border:5px rgb(99, 119, 190) ridge;
@@ -108,4 +113,11 @@ p {
 }
 #h3{
     color: rgb(84, 119, 194);
+}
+#internews{
+    margin-right: 90%;
+}
+#rodape{
+    margin-top: 40px;
+    margin-bottom: -5px;
 }

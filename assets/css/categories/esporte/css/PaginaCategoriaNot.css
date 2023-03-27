@@ -77,6 +77,6 @@ body {
     background-color: #c8c5a7;
 }
 
-#footer{
-    margin-bottom: -5px;
+footer{
+   margin-bottom: -10%; 
 }
