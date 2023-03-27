@@ -31,6 +31,8 @@ display: block;}
 /*Article leia mais*/
 #ALM{}
 
+body{background-color:  #c8c5af;}
+
 /*Section Leia mais*/
 #SLM{ display: flex;
 flex-direction: column;}
