@@ -86,7 +86,9 @@ h1 {
     color: white;
     text-align: center;
 }
-
+#space{
+    margin: 10px;
+}
 .img {
 
     justify-content: space-between;

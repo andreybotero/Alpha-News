@@ -16,7 +16,9 @@ body {
     padding: 0;
     background-color: #c8c5a7;
 }
-
+.p{
+    margin: 10px;
+}
 .img1 {
     background-image: url(../../../../img/imagens/banners/banner\ cultura.jpg);
     width: 100%;
