@@ -52,6 +52,11 @@ body {
     margin-right: 15%;
     text-align: justify;
 }
+/*Edições no primeiro parágrafo*/
+#p1{
+    font-size: 20px;
+    padding-top: 25px;
+}
 /*Edições nos parágrafos*/
 .p{
     padding: 10px;

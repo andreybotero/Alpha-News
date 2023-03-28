@@ -19,9 +19,7 @@ body {
     padding: 0;
     background-color: #c8c5a7;
 }
-.p{
-    margin: 10px;
-}
+
 /*Edições no banner*/
 .img1 {
     background-image: url(../../../../img/imagens/banners/banner\ cultura.jpg);
@@ -116,8 +114,14 @@ h1 {
    
     justify-content: space-around;
 }
+/*Edições no primeiro parágrafo*/
+#p1{
+    font-size: 20px;
+    padding-top: 25px;
+}
 /*Edições nos parágrafos*/
 .p{
+    padding-top: 5px;
     font-size: 20px;
 }
 /*Edições nos links*/
