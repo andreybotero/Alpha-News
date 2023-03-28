@@ -55,12 +55,12 @@ body {
 /*Edições nos parágrafos*/
 .p{
     padding: 10px;
-    font-size: 25px;
+    font-size: 20px;
     margin: 5px;
 }
 #pS{
     padding: 10px;
-    font-size: 25px;
+    font-size: 20px;
     margin: 10px;
     margin-top: 50px;
 }
@@ -93,7 +93,9 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
+#songtit{
+    font-size: 20px;
+}
 #songimg{
     margin-top: 10px;
     margin-bottom: 500px;
@@ -209,11 +211,4 @@ body {
 .slider-nav a:hover {
     opacity: 1;
 }
-/*Edições nos parágrafos*/
-.p{
-    font-size: 15px;
-}
-/*Edições nos parágrafos*/
-#pS{
-    font-size: 15px;
-}
+
