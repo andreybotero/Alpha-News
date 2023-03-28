@@ -67,3 +67,9 @@ section {
 .card .content a:hover {
     color: #005580;
 }
+
+#footer {
+    display: flex;
+    bottom: -5px;
+    position: relative;
+}
