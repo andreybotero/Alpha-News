@@ -92,12 +92,16 @@ h1 {
 
     justify-content: space-between;
     margin: 25px;
-    margin-left: -2%;
+    margin-left: 2%;
     display: flex;
+}
+/*Adiconar espaço entre as duas imagens*/
+#space{
+    margin: 10px;
 }
 /*Edições nos parágrafos*/
 .p{
-    font-size: 15px;
+    font-size: 20px;
 }
 /*Edições no link*/
 a{
