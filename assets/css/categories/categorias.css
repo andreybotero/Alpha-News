@@ -41,6 +41,9 @@ a {
     text-decoration: none;
     color: #fff;
 }
+a:hover{
+    text-decoration: underline;
+}
 
 /*edições na transição do texto nas imagens*/
 div:hover {
