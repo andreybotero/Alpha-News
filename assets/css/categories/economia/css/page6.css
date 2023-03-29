@@ -1,0 +1,85 @@
+header{background-color: #fff;
+padding: 5px;}
+/*article titulo, autor, data*/
+#ATAD{}
+
+/*Titulo da noticia*/
+#titulo{ font-size: xx-large;
+text-align: center;}
+
+/*subtitulo*/
+#subtitulo{ font-size: medium;
+text-align: left;}
+
+/*autor*/
+#autor{}
+
+body{background-color:  #c8c5af;}
+
+/*data*/
+#data{}
+
+/*img da noticia*/
+#imgnot{margin: auto;
+display: block;}
+
+/*Article da Noticia*/
+#AN{}
+
+/*Section do corpo da noticia*/
+#SCN{}
+
+/*Corpo da noticia*/
+
+
+/*Article leia mais*/
+#ALM{}
+
+/*Section Leia mais*/
+#SLM{ display: flex;
+flex-direction: column;}
+
+/*Link para outras pags*/
+.pags{ margin-bottom: 5%;}
+
+/*Section botton voltar para home*/
+#SBVPH{ margin-top: 10%;}
+
+/*linkn da home*/
+#LH{ font-style: none;
+    margin-top: 10%;
+    margin-left: 10%
+    color: ;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+    width: 140px;
+    right: 20px;
+}
+
+/**/
+span.material-icons {
+    font-size: 18px;
+    position: absolute;
+    left: 15px;
+    top: 4px;
+}
+
+/*ID de subtitulo negrito grande*/
+#IDSNG { font-size: large;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+/*Imagem corpo noticia*/
+#imgcn { display: block;
+margin: auto;
+padding: 1%;}
+
+/*paragrafo corpo noticia*/
+.pcn{ font-size: large;
+    text-align: justify;
+margin-top: 1cm;
+margin-left: 3cm;;
+margin-right: 2cm;
+}

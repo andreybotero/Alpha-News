@@ -1,65 +1,137 @@
-body { background-image:linear-gradient(#e3e8ec, #34576b )}
-
-.articles{ margin-left: 20%;
-    margin-right: 20%;
-margin-top: 1%;
-background-color: white ;
-padding: 8%;
+/*Edições gerais*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cab98c;
 }
 
-div { background: #e3e8ec; padding-top: 5%;
-padding-bottom: 5%;}
-.sections{ display: flex;}
-
-#imgs{ 
-    height: 64px;
-    width: 64px;
+/*edições do título da página*/
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: georgia;
+    text-shadow: 3px 2px #fff;
 }
 
-#titulonoticia{ font-size: larger;
-font-style: oblique ;
+/*edições do título das categorias*/
+h2 {
+    text-align: left;
 }
 
-.articles:hover{ background-color: aquamarine;}
-
-iframe{ width: 100%;}
-
-#titulo{font-size: xx-large;
-text-align: center;
-font-style: italic;}
-
-
-
-#vejatambem{ display: flex;
-flex-direction: column;
+/*edições nos articles*/
+article {
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    margin: 50px;
 }
 
-/*Edição geral da Camerasinha*/
-#img1 {
-    height: 64px;
-    width: 64px;
-    padding: 10px;
-    margin-left: 47%;
+/*edições no texto das imagens*/
+div {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    position: relative;
+    bottom: 20px;
+    opacity: 0;
+    padding: 50px;
 }
 
-/*Animação da logo*/
-#img1:hover {
-    width: 64px;
-    animation: rotation 2s infinite linear;
+/*edições nos links*/
+a {
+    text-decoration: none;
+    color: #fff;
 }
 
-/*Animação da Camerasinha*/
-@keyframes rotation {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(359deg);
-    }
+/*edições na transição do texto nas imagens*/
+div:hover {
+    opacity: 1;
+    background-color: rgba(3, 3, 3, 0.5);
+    height: 300px;
 }
 
-#p1:hover {font-size: larger; color: grey;}
+/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
+#cardvest {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    background-image: url(../../../../img/arte\ de\ rua\ aaaaaaaaaa.jpg);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+}
 
-a { text-decoration: none;
-color: black;}
+/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
+#cardcult {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    background-image: url(../../../../img/batalha\ de\ rimaaaaaaaaaaaa.png);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+}
+
+/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
+#cardcine {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    background-image: url(../../../../img/casa\ da\ cultura\ aaaaaaaa.jpg);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+}
+
+/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
+#cardgastro {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    background-image: url(../../../../img/festa\ do\ figo.webp);
+    background-size: cover;
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+}
+
+/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
+#cardesport {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    background-image: url(../../../../img/porks\ festival.jfif);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+}
+
+/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
+#cardecono {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    background-image: url(../../../../img/biblioteca\ publica\ aaaaaaaaaaaaaaaa.jpg);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+}
+
+#footer {
+    position: relative ;
+    bottom: -5px;
+    margin: 0;
+    padding: 0;
+}
+

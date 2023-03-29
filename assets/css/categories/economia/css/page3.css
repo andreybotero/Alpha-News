@@ -13,9 +13,7 @@ text-align: left;}
 #autor{}
 
 /*data*/
-#data{
-    
-}
+#data{}
 
 /*img da noticia*/
 #imgnot{margin: auto;
@@ -26,6 +24,8 @@ display: block;}
 
 /*Section do corpo da noticia*/
 #SCN{}
+
+body{background-color:  #c8c5af;}
 
 /*Corpo da noticia*/
 
@@ -38,11 +38,11 @@ display: block;}
 flex-direction: column;}
 
 /*Link para outras pags*/
-.pags{}
+.pags{margin-bottom: 5%;}
 
 
 /*Section botton voltar para home*/
-#SBVPH{}
+#SBVPH{margin-top: 10%;}
 
 /*button da home*/
 #Voltarhome{ width: 10%;}

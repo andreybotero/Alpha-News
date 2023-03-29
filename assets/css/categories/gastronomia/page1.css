@@ -1,3 +1,4 @@
+
 body {
     background: url(../../../img/baixados.jpg);
     background-size: cover;
@@ -5,8 +6,6 @@ body {
     background-position: center;
     background-size: 100%;
     height: 100%;
-    
-    
 }
 
 .logo {
@@ -94,7 +93,7 @@ h2 {
     width: 90%;
     margin: 60px;
     padding: 2px;
-    text-align: center;
+    text-align: right;
     font-size: 14px;
     color: #fff;
 }
@@ -106,11 +105,50 @@ h2 {
 
 /*texto*/
 #brio3{
-    text-align:center;
+    text-align:right;
     color:#fff;
-    justify-content: center;
+    justify-content: right;
+}
+
+/*texto*/
+#brio4{
+    color:#fff;
+    text-align: center;
+}
+
+/*texto*/
+.news3{
+    color:#fff;
+    font-size: 14px;
+}
+
+/*titulo*/
+.title{
+    color:#fff ;
+}
+
+/*titulo*/
+.title2{
+   color:#fff ;
+}
+
+/*texto*/
+#brio5{
+    text-align: center;
+    color:#fff ;
+    font-size: 12px;
+}
+
+/*titulo*/
+
+.title3{
+    text-align: right;
 }
 
 #internews{
     color: #fff;
 }
+
+
+
+
