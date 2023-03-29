@@ -201,29 +201,29 @@ h1 {
     max-width: 400px;
 }
 
+#comentarios{
+    display: flex;
+}
+
 #all-cards{
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;   
+    margin: 25px;
 }
 
 .card {
     margin: 0 auto;
     text-align: center;
-    display: flex;
     color:black
 }
 
 .stars {
-    font-size: 2rem;
+    font-size: 20px;
     color: #ffc107;
     margin-bottom: 10px;
 }
 
 .image {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    
 }
 
 
