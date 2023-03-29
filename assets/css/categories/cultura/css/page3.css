@@ -41,15 +41,7 @@ body {
     height: 70px;
     font-family: 'Courier New', Courier, monospace;
 }
-/*Edições no título do artigo*/
-h1 {
-    text-align: center;
-    margin: 0px;
-    padding: 10px;
-    padding-top: 15px;
-    font-size: 25px;
-    font-family: georgia
-}
+
 /*Edições no texto todo*/
 .news1 {
     justify-content: center;
@@ -92,14 +84,63 @@ h1 {
 
     justify-content: space-between;
     margin: 25px;
-    margin-left: -2%;
+    margin-left: 2%;
     display: flex;
 }
+/*Adiconar espaço entre as duas imagens*/
+#space{
+    margin: 10px;
+}
 /*Edições nos parágrafos*/
+/*Edições no primeiro parágrafo*/
+#p1{
+    font-size: 20px;
+    padding-top: 25px;
+}
 .p{
-    font-size: 15px;
+    font-size: 20px;
 }
 /*Edições no link*/
 a{
     text-decoration: none;
+}
+#estrelas  {
+    margin: 0 auto;
+    color: gold;
+    font-size: 30px;
+}
+
+.card-geral {
+    border: 1px solid #000000;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+#comentarios{
+    display: flex;
+}
+
+#all-cards{
+    margin: 25px;
+}
+
+.card {
+    margin: 0 auto;
+    text-align: center;
+    color:black
+}
+
+.stars {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.image {
+    border-radius: 50%;
+    
 }
