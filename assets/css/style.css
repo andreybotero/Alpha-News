@@ -43,10 +43,10 @@ body {
     border-radius: 0.5rem;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    box-shadow: -webkit-box-shadow: 15px 15px 54px 25px rgba(0, 0, 0, 0.66);
+    box-shadow: -webkit-box-shadow 15px 15px 54px 25px rgba(0, 0, 0, 0.66);
     -moz-box-shadow: 15px 15px 54px 25px rgba(0, 0, 0, 0.66);
     box-shadow: 15px 15px 54px 25px rgba(0, 0, 0, 0.66);
-    ;
+    
 }
 
 .slider::-webkit-scrollbar {
