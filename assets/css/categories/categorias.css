@@ -41,6 +41,9 @@ a {
     text-decoration: none;
     color: #fff;
 }
+a:hover{
+    text-decoration: underline;
+}
 
 /*edições na transição do texto nas imagens*/
 div:hover {
@@ -57,7 +60,7 @@ div:hover {
     overflow: hidden;
     cursor: pointer;
     position: relative;
-    background-image: url(../../img/vestibular.jpg);
+    background-image: url(../../img/categorias/vestibular.jpg);
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
     background-size: cover;
 }
@@ -70,7 +73,7 @@ div:hover {
     overflow: hidden;
     cursor: pointer;
     position: relative;
-    background-image: url(../../img/cultura.jpg);
+    background-image: url(../../img/categorias/cultura.jpg);
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
     background-size: cover;
 }
@@ -83,7 +86,7 @@ div:hover {
     overflow: hidden;
     cursor: pointer;
     position: relative;
-    background-image: url(../../img/cinema.jpg);
+    background-image: url(../../img/categorias/cinema.jpg);
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
     background-size: cover;
 }
@@ -96,7 +99,7 @@ div:hover {
     overflow: hidden;
     cursor: pointer;
     position: relative;
-    background-image: url(../../img/gastronomia.jpg);
+    background-image: url(../../img/categorias/gastronomia.jpg);
     background-size: cover;
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
 }
@@ -109,7 +112,7 @@ div:hover {
     overflow: hidden;
     cursor: pointer;
     position: relative;
-    background-image: url(../../img/esportes.jpg);
+    background-image: url(../../img/categorias/esportes.jpg);
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
     background-size: cover;
 }
@@ -122,7 +125,7 @@ div:hover {
     overflow: hidden;
     cursor: pointer;
     position: relative;
-    background-image: url(../../img/economia.jpg);
+    background-image: url(../../img/categorias/economia.jpg);
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
     background-size: cover;
 }
