@@ -227,46 +227,6 @@ body {
     background-color: white;
     padding: 20px;
     margin: 10px;
-    max-width: 400px;
-    display: flex;
-    flex-direction: row;
-}
-
-#comentarios{
-    display: flex;
-}
-
-#all-cards{
-    margin: 25px;
-}
-
-.card {
-    margin: 0 auto;
-    text-align: center;
-    color:black
-}
-
-.stars {
-    font-size: 20px;
-    color: #000;
-    margin-bottom: 10px;
-}
-
-.image {
-    border-radius: 50%;
-    
-}
-#estrelas  {
-    margin: 0 auto;
-    color: gold;
-    font-size: 30px;
-}
-
-.card-geral {
-    border: 1px solid #000000;
-    background-color: white;
-    padding: 20px;
-    margin: 10px;
     
 }
 
