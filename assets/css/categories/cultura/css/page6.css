@@ -237,3 +237,40 @@ img {
     border-radius: 50%;
     
 }
+#estrelas  {
+    margin: 0 auto;
+    color: gold;
+    font-size: 30px;
+}
+
+.card-geral {
+    border: 1px solid #000000;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+#comentarios{
+    display: flex;
+}
+
+#all-cards{
+    margin: 25px;
+}
+
+
+
+.stars {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 10px;
+    text-align: left;
+    display: flex;
+}
+
+.image {
+    border-radius: 50%;
+    padding: 10px;
+    
+}
