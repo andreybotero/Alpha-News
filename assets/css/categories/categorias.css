@@ -1,7 +1,6 @@
 /*Edições gerais*/
 body {
     margin: 0;
-    padding: 0;
     background-color: #cab98c;
 }
 
@@ -26,28 +25,6 @@ article {
     margin: 50px;
 }
 
-img {
-    border-radius: 50%;
-}
-
-div {
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    padding: 30px;
-    margin-top: 40px;
-    position: relative;
-    bottom: 20px;
-    opacity: 0;
-}
-
-a {
-    text-decoration: none;
-    color: #fff;
-}
-
-div:hover {}
-
 /*edições no texto das imagens*/
 div {
     display: flex;
@@ -64,24 +41,15 @@ a {
     text-decoration: none;
     color: #fff;
 }
+a:hover{
+    text-decoration: underline;
+}
 
 /*edições na transição do texto nas imagens*/
 div:hover {
-    >>>>>>>main opacity: 1;
+    opacity: 1;
     background-color: rgba(3, 3, 3, 0.5);
     height: 300px;
-}
-
-#cardvest {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    overflow: hidden;
-    cursor: pointer;
-    position: relative;
-    background-image: url(../../img/vestibular.jpg);
-    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
-    background-size: cover;
 }
 
 /*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
@@ -92,7 +60,7 @@ div:hover {
     overflow: hidden;
     cursor: pointer;
     position: relative;
-    background-image: url(../../img/vestibular.jpg);
+    background-image: url(../../img/categorias/vestibular.jpg);
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
     background-size: cover;
 }
@@ -105,11 +73,10 @@ div:hover {
     overflow: hidden;
     cursor: pointer;
     position: relative;
-    background-image: url(../../img/cultura.jpg);
+    background-image: url(../../img/categorias/cultura.jpg);
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
     background-size: cover;
 }
-
 
 /*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
 #cardcine {
@@ -119,11 +86,10 @@ div:hover {
     overflow: hidden;
     cursor: pointer;
     position: relative;
-    background-image: url(../../img/cinema.jpg);
+    background-image: url(../../img/categorias/cinema.jpg);
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
     background-size: cover;
 }
-
 
 /*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
 #cardgastro {
@@ -133,11 +99,10 @@ div:hover {
     overflow: hidden;
     cursor: pointer;
     position: relative;
-    background-image: url(../../img/gastronomia.jpg);
+    background-image: url(../../img/categorias/gastronomia.jpg);
     background-size: cover;
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
 }
-
 
 /*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
 #cardesport {
@@ -147,7 +112,7 @@ div:hover {
     overflow: hidden;
     cursor: pointer;
     position: relative;
-    background-image: url(../../img/esportes.jpg);
+    background-image: url(../../img/categorias/esportes.jpg);
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
     background-size: cover;
 }
@@ -160,15 +125,15 @@ div:hover {
     overflow: hidden;
     cursor: pointer;
     position: relative;
-    background-image: url(../../img/economia.jpg);
+    background-image: url(../../img/categorias/economia.jpg);
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
     background-size: cover;
 }
 
-
 #footer {
-    position: relative;
+    position: relative ;
     bottom: -5px;
     margin: 0;
     padding: 0;
 }
+

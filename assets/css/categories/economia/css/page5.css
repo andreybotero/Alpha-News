@@ -35,6 +35,8 @@ display: block;}
 #SLM{ display: flex;
 flex-direction: column;}
 
+body{background-color:  #c8c5af;}
+
 /*Link para outras pags*/
 .pags{margin-bottom: 5%;}
 
