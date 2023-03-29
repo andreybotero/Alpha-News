@@ -52,7 +52,7 @@ h1 {
 /*Edições nos parágrafos*/
 .p1 {
     padding: 10px;
-    font-size: 15px;
+    font-size: 20px;
     margin: 5px;
 }
 /*Edições no texto todo*/
@@ -75,6 +75,7 @@ h1 {
     margin-left: 20%;
     margin-right: 20%;
     background-color: white;
+
 
 
 }
@@ -183,3 +184,50 @@ h1 {
     margin: 0;
     justify-content: center;
 }
+
+
+
+#estrelas  {
+    margin: 0 auto;
+    color: gold;
+    font-size: 30px;
+}
+
+.card-geral {
+    border: 1px solid #000000;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+#comentarios{
+    display: flex;
+}
+
+#all-cards{
+    margin: 25px;
+}
+
+.card {
+    margin: 0 auto;
+    text-align: center;
+    color:black
+}
+
+.stars {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.image {
+    border-radius: 50%;
+    
+}
+
+
+
+
