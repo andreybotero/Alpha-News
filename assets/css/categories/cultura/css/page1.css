@@ -199,6 +199,8 @@ h1 {
     padding: 20px;
     margin: 10px;
     max-width: 400px;
+    display: flex;
+    flex-direction: row;
 }
 
 #comentarios{
@@ -217,7 +219,7 @@ h1 {
 
 .stars {
     font-size: 20px;
-    color: #ffc107;
+    color: #000;
     margin-bottom: 10px;
 }
 
