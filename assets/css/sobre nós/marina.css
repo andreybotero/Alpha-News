@@ -86,3 +86,19 @@ p {
     position: relative;
     margin-bottom: -15px;
 }
+
+#voltar {
+    background-color: #3b4350;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    cursor: pointer;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}

@@ -44,13 +44,3 @@ section li {
 }
 
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-#footer {
-  display: flex;
-  position: relative;
-  margin-bottom: -15px;
-}
