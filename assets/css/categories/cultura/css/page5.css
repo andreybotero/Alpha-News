@@ -111,9 +111,7 @@ a{
     background-color: white;
     padding: 20px;
     margin: 10px;
-    max-width: 400px;
-    display: flex;
-    flex-direction: row;
+    
 }
 
 #comentarios{
@@ -124,19 +122,18 @@ a{
     margin: 25px;
 }
 
-.card {
-    margin: 0 auto;
-    text-align: center;
-    color:black
-}
+
 
 .stars {
     font-size: 20px;
     color: #000;
     margin-bottom: 10px;
+    text-align: left;
+    display: flex;
 }
 
 .image {
     border-radius: 50%;
+    padding: 10px;
     
 }

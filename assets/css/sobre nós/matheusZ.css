@@ -1,11 +1,8 @@
 body{
     background-color: black;
     background: url(../../img/luz.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .inicio{
@@ -80,8 +77,30 @@ p{
     padding: 0;
 }
 
+header {
+    margin: 0;
+    padding: 0;
+}
+
 #footer {
     display: flex;
     position: relative;
     margin-bottom: -15px;
+}
+
+#voltar {
+    background-color: #3b4350;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    cursor: pointer;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
 }
