@@ -1,50 +1,164 @@
-/*article titulo, autor, data*/
-#ATAD{}
+* {
+    margin: 0;
+    padding: 0;
+}
 
-/*Titulo da noticia*/
-#titulo{ font-size: xx-large;
-text-align: center;}
+iframe {
+    margin: 0;
+    padding: 0;
+}
 
-/*subtitulo*/
-#subtitulo{ font-size: medium;
-text-align: left;}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #90a1bd;
+}
 
-/*autor*/
-#autor{}
+.img {
+    background-image: url(../../../../img/plano\ de\ fundo\ economia.jpg);
+    width: 100%;
+    height: 250px;
+}
 
-/*data*/
-#data{}
+.banner {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.598);
+}
 
-/*img da noticia*/
-#imgnot{margin: auto;
-display: block;}
+.Btext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 50px;
+    color: white;
+    width: 100%;
+    height: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
 
-/*Article da Noticia*/
-#AN{text-align: justify;}
+h1 {
+    text-align: center;
+    margin: 0px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
 
-/*Section do corpo da noticia*/
-#SCN{}
+.news1 {
+    justify-content: center;
+    margin: 0 auto;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+}
 
-body{background-color:  #c8c5af;}
+#internews {
+    margin-top: 20px;
+}
 
-/*Corpo da noticia*/
+#Ncolor {
+    margin: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(246, 235, 213);
 
+}
 
-/*Article leia mais*/
-#ALM{}
+.DAC {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-left: 75%;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
-/*Section Leia mais*/
-#SLM{ display: flex;
-flex-direction: column;}
+#categ {
+    margin: auto;
+    margin-bottom: 100px;
+    width: 85px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: rgb(0, 145, 255);
+    color: white;
+}
 
-/*Link para outras pags*/
-.pags{margin-bottom: 5%;}
+.bannerA {
+    text-decoration: none;
+    color: white;
+}
 
+#img {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
 
-/*Section botton voltar para home*/
-#SBVPH{margin-top: 10%;}
+#estrelas  {
+    text-align: center;
+    color: gold;
+}
 
-/*button da home*/
-#Voltarhome{ width: 10%;}
+#space {
+    display: flex;
+    margin: 3%;
+    justify-content: space-between;
+}
 
-/**/
+.opinião {
+    margin: 3%;
+    padding: 3%;
+    font-size: 20px;
+}
+
+.perfil {
+    width: 150px;
+    height: 150px
+}
+
+.card-geral {
+    border: 1px solid #000;
+    padding: 20px;
+    width: 400px;
+    background-color: white;
+
+}
+
+.card {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+
+#username {
+    margin: 10px;
+    padding: 0;
+    margin-left: 175px;
+
+}
+
+#estrelas {
+    padding-bottom: 5px;
+    font-size: 30px;
+    color: #ffc107;
+    margin-bottom: 5px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}

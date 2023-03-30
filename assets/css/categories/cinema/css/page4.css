@@ -179,3 +179,26 @@ img {
     font-size: 1.2rem;
     line-height: 1.5;
 }
+/*div do botão*/
+#botao {
+    align-items: left;
+}
+/*Edições no link no botão de voltar*/
+.bannerA {
+    text-decoration: none;
+    color: white;
+    align-items: left;
+    margin: 10px;
+}
+/*Edições no botão de voltar*/
+#categ {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 85px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: #3b4350;
+    color: white;
+    text-align: center;
+}

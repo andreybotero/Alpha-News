@@ -2,11 +2,6 @@
 @import "compass/css3";
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
 
-/* Variables */
-:root {
-  --red: #97b2eb;
-}
-
 /* Global box-sizing and body styles */
 *,
 *:before,
@@ -26,7 +21,7 @@ body {
 /* Header styles */
 h1 {
   text-align: center;
-  color: #a8a8a8;
+  color: #3b4350;
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 1);
 }
 
@@ -51,13 +46,9 @@ form textarea {
   resize: none;
 }
 
-form input:focus {
-  box-shadow: 0 0px 2px rgba(231, 76, 60, 1) !important;
-}
 
 form #input-submit {
   color: white;
-  background: var(--red);
   cursor: pointer;
 }
 
@@ -83,15 +74,6 @@ form textarea {
 .left {
   margin-right: 2%;
 }
-
-@media (max-width: 480px) {
-  .half {
-    width: 100%;
-    float: none;
-    margin-bottom: 0;
-  }
-}
-
 /* Clearfix */
 .cf:before,
 .cf:after {
@@ -101,4 +83,75 @@ form textarea {
 
 .cf:after {
   clear: both;
+}
+
+/* Estilo para o contêiner da pop-up */
+.popup-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+/* Estilo para o conteúdo da pop-up */
+.popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Estilo para o ícone de sucesso */
+.popup-icon {
+  font-size: 80px;
+  color: green;
+  margin-bottom: 20px;
+}
+
+/* Estilo para o texto de sucesso */
+.popup-text {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* Estilo para o botão de fechar */
+.popup-close {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  background-image: linear-gradient(to right, #2d323a , #3a5d97);
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  font-size: 17px;
+  border-radius: 10px;
+  margin: 10px;
+  width: 100%;
+  margin-left: -1px;
+  height: 50px;
+}
+
+#input-subject {
+  height: 70px;
+}
+
+#footer {
+  display: flex;
 }
