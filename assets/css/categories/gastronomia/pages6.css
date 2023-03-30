@@ -176,3 +176,65 @@ h2 {
     justify-content: center;
     background-color: #34576b;
 }
+
+#estrelas  {
+    text-align: center;
+    color: gold;
+}
+
+#space {
+    display: flex;
+    margin: 3%;
+    justify-content: space-between;
+}
+
+.opinião {
+    margin: 3%;
+    padding: 3%;
+    font-size: 20px;
+}
+
+.perfil {
+    width: 150px;
+    height: 150px
+}
+
+.card-geral {
+    border: 1px solid #000;
+    padding: 20px;
+    width: 400px;
+    background-color: white;
+
+}
+
+.card {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+
+#username {
+    margin: 10px;
+    padding: 0;
+    margin-left: 175px;
+
+}
+
+#estrelas {
+    padding-bottom: 5px;
+    font-size: 30px;
+    color: #ffc107;
+    margin-bottom: 5px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
