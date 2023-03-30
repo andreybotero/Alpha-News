@@ -1,137 +1,83 @@
-/*Edições gerais*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     padding: 0;
-    background-color: #cab98c;
+    background-color: #c8c5a7;
 }
 
-/*edições do título da página*/
-h1 {
-    text-align: center;
-    font-size: 40px;
-    font-family: georgia;
-    text-shadow: 3px 2px #fff;
-}
-
-/*edições do título das categorias*/
-h2 {
-    text-align: left;
-}
-
-/*edições nos articles*/
-article {
-    justify-content: space-evenly;
-    align-items: center;
+section {
     display: flex;
-    margin: 50px;
+    justify-content: center;
 }
 
-/*edições no texto das imagens*/
-div {
-    display: flex;
-    flex-direction: column;
-    color: #fff;
+.card {
     position: relative;
-    bottom: 20px;
-    opacity: 0;
-    padding: 50px;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    box-shadow: -webkit-box-shadow 17px 18px 16px 8px rgba(0, 0, 0, 0.72);
+    -moz-box-shadow: 17px 18px 16px 8px rgba(0, 0, 0, 0.72);
+    box-shadow: 17px 18px 16px 8px rgba(0, 0, 0, 0.72);
+    margin: 5%;
 }
 
-/*edições nos links*/
-a {
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    padding: 20px;
+    background-color: #fff;
+    transition: height 0.3s ease;
+}
+
+.card:hover .content {
+    height: 150px;
+}
+
+.card .content h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.card .content p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.card .content a {
+    font-size: 14px;
     text-decoration: none;
-    color: #fff;
+    color: #0077cc;
+    transition: color 0.3s ease;
 }
 
-/*edições na transição do texto nas imagens*/
-div:hover {
-    opacity: 1;
-    background-color: rgba(3, 3, 3, 0.5);
-    height: 300px;
+.card .content a:hover {
+    color: #005580;
 }
-
-/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
-#cardvest {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    overflow: hidden;
-    cursor: pointer;
-    position: relative;
-    background-image: url(../../../../img/arte\ de\ rua\ aaaaaaaaaa.jpg);
-    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
-    background-size: cover;
+#botao{
+    margin-left: -80%;
 }
-
-/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
-#cardcult {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    overflow: hidden;
-    cursor: pointer;
-    position: relative;
-    background-image: url(../../../../img/batalha\ de\ rimaaaaaaaaaaaa.png);
-    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
-    background-size: cover;
+/*Edições no botão de voltar*/
+#categ {
+    margin: auto;
+    margin-top: 50px;
+    width: 100px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: #3b4350;
+    color: white;
+    text-align: center;
 }
-
-/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
-#cardcine {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    overflow: hidden;
-    cursor: pointer;
-    position: relative;
-    background-image: url(../../../../img/casa\ da\ cultura\ aaaaaaaa.jpg);
-    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
-    background-size: cover;
-}
-
-/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
-#cardgastro {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    overflow: hidden;
-    cursor: pointer;
-    position: relative;
-    background-image: url(../../../../img/festa\ do\ figo.webp);
-    background-size: cover;
-    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
-}
-
-/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
-#cardesport {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    overflow: hidden;
-    cursor: pointer;
-    position: relative;
-    background-image: url(../../../../img/porks\ festival.jfif);
-    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
-    background-size: cover;
-}
-
-/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
-#cardecono {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    overflow: hidden;
-    cursor: pointer;
-    position: relative;
-    background-image: url(../../../../img/biblioteca\ publica\ aaaaaaaaaaaaaaaa.jpg);
-    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
-    background-size: cover;
-}
-
-#footer {
-    position: relative ;
-    bottom: -5px;
-    margin: 0;
-    padding: 0;
-}
-
