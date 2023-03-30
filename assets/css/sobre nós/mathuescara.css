@@ -1,4 +1,4 @@
-body{
+body {
     background-color: black;
     background: url(../../img/luz.jpg);
     background-size: cover;
@@ -8,22 +8,22 @@ body{
     height: 100%;
 }
 
-.inicio{
+.inicio {
     text-align: center;
     padding: 15px;
 }
 
-.sobre{
-   color: #fff;
-   text-decoration: none;
+.sobre {
+    color: #fff;
+    text-decoration: none;
 }
 
-.nome{
+.nome {
     text-align: center;
     padding: 20px;
 }
 
-.mathe{
+.mathe {
     color: #fff;
     text-decoration: none;
     font-size: 24px;
@@ -36,7 +36,7 @@ body{
     justify-content: center;
 }
 
-#sobremathe{
+#sobremathe {
     padding: 10px;
     justify-content: left;
     margin-right: 10px;
@@ -44,12 +44,12 @@ body{
     font-size: 16px;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-.fotos{
-    
+.fotos {
+
     text-align: center;
     padding: 55px;
     justify-content: space-between;
@@ -63,13 +63,26 @@ h1{
     -moz-box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
     background-color: hsl(60, 9%, 2%);
-    
+
 }
-p{
+
+p {
     color: #fff;
 }
 
-#mathe2{
+#mathe2 {
     text-align: center;
     margin: 20px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#footer {
+    display: flex;
+    position: relative;
+    margin-bottom: -15px;
 }

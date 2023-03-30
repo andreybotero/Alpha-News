@@ -35,3 +35,14 @@ text-align: justify;}
 #experiencia{flex-direction: column;}
 
 #div1{flex-direction: column;}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#footer {
+  display: flex;
+  position: relative;
+  margin-bottom: -15px;
+}
