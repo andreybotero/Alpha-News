@@ -13,7 +13,7 @@
 }
 
 body {
-    background: linear-gradient(to right, #34576b 0%, #34576b 100%);
+    background: linear-gradient(to right, #c8c5a7 0%, #c8c5a7 100%);
     font-size: 12px;
 }
 
@@ -238,4 +238,7 @@ button:hover {
     display: inline-block;
     margin-top: 20px;
     cursor: pointer;
+}
+#footer {
+    display: flex;
 }

@@ -23,6 +23,7 @@ h1 {
   text-align: center;
   color: #3b4350;
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 1);
+  margin-top: 10%;
 }
 
 /* Form styles */
@@ -30,6 +31,7 @@ form {
   max-width: 600px;
   text-align: center;
   margin: 20px auto;
+  margin-bottom: 0;
 }
 
 form input,
@@ -109,13 +111,6 @@ form textarea {
   text-align: center;
 }
 
-/* Estilo para o ícone de sucesso */
-.popup-icon {
-  font-size: 80px;
-  color: green;
-  margin-bottom: 20px;
-}
-
 /* Estilo para o texto de sucesso */
 .popup-text {
   font-size: 20px;
@@ -142,10 +137,15 @@ button {
   outline: none;
   font-size: 17px;
   border-radius: 10px;
-  margin: 10px;
-  width: 100%;
-  margin-left: -1px;
-  height: 50px;
+  width: 45%;
+  margin-left: 27.5%;
+  margin-right: 27.5%;
+  margin-top: 0;
+  margin-bottom: 10%;
+}
+
+#input-message {
+  height: 180px;
 }
 
 #input-subject {
