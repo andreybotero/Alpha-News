@@ -30,8 +30,13 @@ h1 {
 form {
   max-width: 600px;
   text-align: center;
+<<<<<<< HEAD
   margin: 0 auto;
   margin-bottom: -20px;
+=======
+  margin: 20px auto;
+  margin-bottom: 0;
+>>>>>>> 110337f309fb6d1d3414d5811a9afa6ca085a6bc
 }
 
 form input,
@@ -110,13 +115,6 @@ form textarea {
   padding: 20px;
   border-radius: 5px;
   text-align: center;
-}
-
-/* Estilo para o ícone de sucesso */
-.popup-icon {
-  font-size: 80px;
-  color: green;
-  margin-bottom: 20px;
 }
 
 /* Estilo para o texto de sucesso */

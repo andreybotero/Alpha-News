@@ -239,3 +239,6 @@ button:hover {
     margin-top: 20px;
     cursor: pointer;
 }
+#footer {
+    display: flex;
+}
