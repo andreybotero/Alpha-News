@@ -147,6 +147,7 @@ a:hover::after {
 
 @media (max-width:600px) {
     li {
-        font-size: 42%;
+        font-size: 10px;
     }
+
 }

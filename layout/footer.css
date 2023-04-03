@@ -183,6 +183,12 @@ p {
 @media (max-width:600px) {
 
     .footer3 {
-        margin: 0 auto;
+        display: none;
+    }
+
+    .footer-geral {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
