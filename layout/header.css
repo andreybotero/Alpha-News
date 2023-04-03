@@ -144,7 +144,8 @@ a:hover::after {
     opacity: 1;
     transition-delay: 1s;
 }
-@media (max-width:600px){
+
+@media (max-width:600px) {
     li {
         font-size: 42%;
     }
