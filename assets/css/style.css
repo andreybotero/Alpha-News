@@ -161,7 +161,7 @@ section.grid1 {
     padding: 8px;
     text-decoration: none;
 }
-@media (max-width:720px){
+@media (max-width:600px){
 .clima{
     width:489px;
 }
@@ -174,8 +174,12 @@ section.grid1 {
     margin: 10%auto;
 }
 .card{
-    margin: 0 auto;
+    margin: 0 ;
+    margin-left: 1%;
     width: 250px;
+
+}
+
 }
 
 }

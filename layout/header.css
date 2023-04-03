@@ -43,7 +43,7 @@ li {
 a {
     color: #e3e8ec;
     text-decoration: none;
-    padding: 25px;
+    padding: 2px;
 }
 
 /*Edição expecifica da Header*/
@@ -144,5 +144,8 @@ a:hover::after {
     opacity: 1;
     transition-delay: 1s;
 }
-@media (max-width:720px){
+@media (max-width:600px){
+    li {
+        font-size: 42%;
+    }
 }
