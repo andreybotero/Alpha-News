@@ -1,7 +1,7 @@
 section {
     display: flex;
-    padding: 7%;
     flex-direction: column;
+    margin: 5%;
 }
 
 body {
@@ -18,9 +18,6 @@ body {
     border-radius: 70%;
 }
 
-article {
-    margin: 5px;
-}
 
 #pags:hover {
     zoom: 110%;
@@ -77,3 +74,8 @@ a {
     position: relative;
     margin-bottom: -15px;
 }
+
+#articles{ width: 33%;
+ }
+
+.ams{ }
