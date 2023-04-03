@@ -23,13 +23,15 @@ h1 {
   text-align: center;
   color: #3b4350;
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 1);
+  margin-top: 10%;
 }
 
 /* Form styles */
 form {
   max-width: 600px;
   text-align: center;
-  margin: 20px auto;
+  margin: 0 auto;
+  margin-bottom: -20px;
 }
 
 form input,
@@ -74,6 +76,7 @@ form textarea {
 .left {
   margin-right: 2%;
 }
+
 /* Clearfix */
 .cf:before,
 .cf:after {
@@ -135,17 +138,18 @@ form textarea {
 }
 
 button {
+  width: 100%;
   border: none;
-  background-image: linear-gradient(to right, #2d323a , #3a5d97);
+  background-image: linear-gradient(to right, #2d323a, #3a5d97);
   font-size: 14px;
   cursor: pointer;
   outline: none;
   font-size: 17px;
   border-radius: 10px;
-  margin: 10px;
-  width: 100%;
-  margin-left: -1px;
-  height: 50px;
+  margin-bottom: 10%;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 #input-subject {
@@ -154,4 +158,8 @@ button {
 
 #footer {
   display: flex;
+}
+
+#input-message {
+  height: 180px;
 }
