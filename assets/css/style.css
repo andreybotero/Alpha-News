@@ -163,7 +163,7 @@ section.grid1 {
 }
 @media (max-width:720px){
 .clima{
-    width:450px;
+    width:489px;
 }
 .grid1{
     display: flex;
@@ -175,6 +175,7 @@ section.grid1 {
 }
 .card{
     margin: 0 auto;
+    width: 250px;
 }
 
 }
