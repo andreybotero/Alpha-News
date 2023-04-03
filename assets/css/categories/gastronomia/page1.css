@@ -185,5 +185,5 @@ h2 {
 }
 
 @media(max-width:600px){
-    
+    display: inline;
 }
