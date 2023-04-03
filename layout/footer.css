@@ -179,5 +179,7 @@ p {
     font-weight: bold;
     float: right;
 }
-
+@media (max-width:720px){
+    
+}
 
