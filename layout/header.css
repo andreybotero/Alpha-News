@@ -36,14 +36,13 @@ li {
     gap: 50px;
     list-style-type: none;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    margin-top: 10px;
+    font-size: 15px;
 }
 
 a {
     color: #e3e8ec;
     text-decoration: none;
-    padding: 25px;
+    padding: 5px;
 }
 
 /*Edição expecifica da Header*/
@@ -143,4 +142,13 @@ a:after {
 a:hover::after {
     opacity: 1;
     transition-delay: 1s;
+}
+
+@media(max-width: 720px) {
+    
+
+    
+
+    
+
 }

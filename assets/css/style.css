@@ -85,8 +85,7 @@ body {
 /*   GRID DE NOTICIAS*/
 
 .grid1 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
     max-width: 90%;
     margin-left: 5%;
     margin-right: 5%;
@@ -102,19 +101,9 @@ section.grid1 {
 
 }
 
-.grid1>div:nth-child(n + 4) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-    align-items: center;
-}
 
 
-.grid1>div.maior {
-    grid-column: 1;
-    grid-row: 2 / 4;
-    display: block;
-}
+
 
 /* CARDS */
 
@@ -160,4 +149,28 @@ section.grid1 {
     text-align: center;
     padding: 8px;
     text-decoration: none;
+}
+
+@media(max-width: 720px) {
+
+
+    .grid1 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #imagemdocard {
+        width: 250px;
+    }
+
+    #footer {
+       
+        height: 550px;
+    }
+
+    .card {
+        margin: 0 auto;
+        width: 400;
+    }
 }
