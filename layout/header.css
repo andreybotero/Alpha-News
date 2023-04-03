@@ -144,3 +144,5 @@ a:hover::after {
     opacity: 1;
     transition-delay: 1s;
 }
+@media (max-width:720px){
+}
