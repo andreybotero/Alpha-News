@@ -181,7 +181,7 @@ section.grid1 {
     .card {
         display: flex;
         margin: 0 auto;
-        max-width: 450px;
+        max-width: 460px;
         width: 100%;
     }
 
@@ -190,16 +190,16 @@ section.grid1 {
     }
 
     .grid1>div:nth-child(n + 4) {
-        display: flex;
+        display: unset;
+    }
+
+    .img {
+        width: 356.6px;
         padding: 10px;
-        width: 95%;
     }
 
     .grid1>div.maior {
-        display: flex;
+        display: unset;
         width: 100%;
-        margin: 0 auto;
     }
-
-
 }
