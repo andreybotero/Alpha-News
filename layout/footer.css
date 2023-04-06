@@ -180,4 +180,15 @@ p {
     float: right;
 }
 
-.
+@media (max-width:600px) {
+
+    .footer3 {
+        display: none;
+    }
+
+    .footer-geral {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
