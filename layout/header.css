@@ -43,7 +43,9 @@ li {
 a {
     color: #e3e8ec;
     text-decoration: none;
-    padding: 2px;
+    padding: 25px;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 /*Edição expecifica da Header*/
@@ -69,7 +71,6 @@ a {
     color: #e3e8ec;
     text-decoration: none;
     transition: 1s;
-
 }
 
 a:hover {
@@ -147,7 +148,12 @@ a:hover::after {
 
 @media (max-width:600px) {
     li {
-        font-size: 10px;
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    a {
+        padding: 0;
     }
 
 }
