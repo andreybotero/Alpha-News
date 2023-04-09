@@ -1,6 +1,8 @@
-#eco{ margin-left: 45%;
-font-size: xx-large;
-font-family: fantasy;}
+#eco {
+    margin-left: 45%;
+    font-size: xx-large;
+    font-family: fantasy;
+}
 
 * {
     margin: 0;
@@ -12,6 +14,7 @@ footer {
     display: flex;
     bottom: -5px;
 }
+
 .card {
     position: relative;
     width: 300px;
@@ -80,6 +83,6 @@ body {
     background-color: #c8c5a7;
 }
 
-footer{
-   margin-bottom: -10%; 
+footer {
+    margin-bottom: -10%;
 }
