@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(246, 235, 213);
+    background-color: #3b4350;
     margin: 0;
     padding: 0;
 }
@@ -30,7 +30,6 @@ img {
 section {
     width: 100%;
     display: inline-block;
-    background: #ccc;
     height: 60vh;
     text-align: center;
     font-size: 22px;
