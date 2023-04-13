@@ -2,6 +2,7 @@
 body {
     margin: 0;
     background-color: #cab98c;
+    overflow-x: hidden; 
 }
 
 /*edições do título da página*/
