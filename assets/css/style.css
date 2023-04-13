@@ -202,4 +202,9 @@ section.grid1 {
         display: unset;
         width: 100%;
     }
+
+    .grid1>div:nth-child(n + 4) img{
+        width: 365px;
+        padding: 0;
+    }
 }
