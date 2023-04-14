@@ -14,6 +14,11 @@ section {
     justify-content: center;
 }
 
+#eco {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
 .card {
     position: relative;
     width: 300px;
@@ -80,4 +85,32 @@ section {
     background-color: #3b4350;
     color: white;
     text-align: center;
+}
+
+
+
+@media (max-width: 600px) {
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+    .geral {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        display: flex;
+        margin: 7% auto;
+        width: 350px;
+        height: 450px;
+    }
+
+    #footer {
+        height: 550px;
+    }
+    p {
+        margin-top: 10px ;
+    }
 }
